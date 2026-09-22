@@ -1,4 +1,7 @@
-ComfyUI
-Geminy
-SpriteCook
-SD_PixelArt_SpriteSheet_Generator
+- ComfyUI
+
+- Geminy: Foi até que bem, com alguns ajustes da para usar de boa.
+
+- SpriteCook: Não gerou a partir da imagem de referencia, apenas pega imagem e cria animação ou cria do zero com base em descrição.
+
+- SD_PixelArt_SpriteSheet_Generator
