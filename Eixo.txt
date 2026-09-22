@@ -1,0 +1,7 @@
+EIXO:
+
+Uma coleção de sprites de um personagem gerados com base em sprites já existentes e uma descrição das características visuais do personagem; a restrição é de um prompt único, sem retocar as imagens depois, com o sprite gerado na mesma pose/enquadramento e mesmo tamanho do original; o que se repete é o personagem descrito e o que varia é o sprite utilizado de base.
+
+CRITERIOS PARA DESCARTE:
+
+Serão descartados os sprites que não tiverem 70% das características descritas no prompt único (a definir, com N traços numerados) ou que não cumprirem os 3 marcadores de estilo — contorno, profundidade de cor e tipo de shading iguais ao original.

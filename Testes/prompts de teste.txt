@@ -1,0 +1,61 @@
+===  Sprite =====================================================================================================
+
+
+Generate a pixel art sprite of the same character described below, using the provided reference sprite as the visual and compositional base.
+
+CHARACTER DESCRIPTION:
+A character with shoulder-length blonde hair, wearing a red baseball cap. The character wears a red tracksuit. The tracksuit has one horizontal white stripe across the chest and two white diagonal stripes on the outer sides of the legs, descending inward toward the lower part of the legs.
+
+Use the reference image to preserve the exact pose, body orientation, framing, composition, proportions, and visual placement of the original sprite. The generated character must occupy the same area of the image as the reference.
+
+The character description above must remain consistent across all generations. Adapt the described character to the specific pose and composition of the provided reference sprite rather than changing the pose or composition.
+
+Preserve the original sprite's pixel-art visual language, including:
+
+outline style and thickness;
+color depth and palette complexity;
+shading technique;
+pixel size and level of detail;
+overall rendering style.
+
+Do not add a background, effects, text, additional characters, objects, or visual elements that are not present in the reference sprite.
+
+Do not change the image dimensions. The output must have exactly the same dimensions as the reference image.
+
+The result must look like the same character represented in the visual style, pose, framing, and composition of the provided reference sprite.
+
+
+
+
+===  Spritesheet =====================================================================================================
+
+Generate a pixel art sprite sheet of the same character described below, using the provided reference sprite sheet as the visual and compositional base.
+
+CHARACTER DESCRIPTION:
+A character with shoulder-length blonde hair, wearing a red baseball cap. The character wears a red tracksuit. The tracksuit has one horizontal white stripe across the chest and two white diagonal stripes on the outer sides of the legs, descending inward toward the lower part of the legs.
+
+SPRITE SHEET REQUIREMENTS:
+
+Create one corresponding character sprite for every frame in the provided reference sprite sheet.
+
+Preserve the exact number and arrangement of frames from the reference sprite sheet. Each generated frame must correspond to the frame in the same position in the original sprite sheet.
+
+For every frame, preserve the original character's pose, body orientation, movement, proportions, framing, and position within its frame. Do not redesign, rearrange, add, remove, or merge frames.
+
+The character description must remain consistent across every frame. The character's appearance, clothing, hair, cap, colors, and identifying features must remain consistent throughout the entire sprite sheet.
+
+Adapt the described character to each individual pose from the reference sprite sheet. Do not use one single pose for all frames.
+
+Preserve the original sprite sheet's pixel-art visual language, including:
+
+outline style and thickness;
+color depth and palette complexity;
+shading technique;
+pixel size and level of detail;
+overall rendering style.
+
+Do not add backgrounds, effects, text, additional characters, objects, or visual elements that are not present in the reference sprite sheet.
+
+Keep exactly the same image dimensions as the reference sprite sheet. Keep the same frame dimensions, spacing, layout, and number of rows and columns.
+
+The output must be a sprite sheet, not a collection of separate images.
