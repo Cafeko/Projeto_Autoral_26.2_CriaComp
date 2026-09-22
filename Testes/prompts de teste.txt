@@ -1,6 +1,5 @@
 ===  Sprite =====================================================================================================
 
-
 Generate a pixel art sprite of the same character described below, using the provided reference sprite as the visual and compositional base.
 
 CHARACTER DESCRIPTION:
