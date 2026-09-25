@@ -1,0 +1,2 @@
+timestamp,base,gerado,largura_base,altura_base,largura_gerado,altura_gerado,tamanho_bate,iou,centro_base_x,centro_base_y,centro_gerado_x,centro_gerado_y,distancia_centro_px,cores_unicas_base,cores_unicas_gerado
+2026-09-24T21:50:21,sprites\base\sprite-test.png,sprites\gerados\heroi\20260924_215015_seed1882778546.png,525,350,525,350,True,0.7039914038190325,261.6418721144271,167.10000301759257,254.18429502093997,171.23850628199162,8.528931080431201,206,21825

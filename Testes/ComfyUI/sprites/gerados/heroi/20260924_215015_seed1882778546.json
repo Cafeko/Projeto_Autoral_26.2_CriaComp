@@ -1,0 +1,18 @@
+{
+  "personagem": "heroi",
+  "sprite_base": "sprites\\base\\sprite-test.png",
+  "prompt": "Redraw the character in the reference image as a new character, keeping the exact same pose, position, scale, canvas size and framing. Keep the exact same pixel art style: same thick dark outline, same limited color palette depth, same flat cel-shading with hard-edged shadow steps and no gradients or anti-aliasing. Keep a plain flat background.\n\nThe new character has these traits:\n1. Elderly traveling merchant, hunched posture built into the same silhouette as the reference.\n2. Weathered pale-green skin, like an old goblin or troll.\n3. Long white braided beard reaching the chest.\n4. Wears a patched brown traveling cloak with a large hood down around the shoulders.\n5. A single brass monocle over the left eye.\n6. Carries a small lantern-shaped charm clipped to the belt, glowing faint orange.\n7. Oversized round backpack on the back, covered in tiny pouches and scrolls.\n8. Bare clawed feet instead of boots.\n\nOnly change the character's appearance. Do not change the pose, the outline style, the pixel density or the shading style.",
+  "seed": 1882778546,
+  "workflow": "sprites-workflow",
+  "modelo": {
+    "unet_name": "flux-2-klein-base-4b-fp8.safetensors",
+    "clip_name": "qwen_3_4b.safetensors",
+    "vae_name": "full_encoder_small_decoder.safetensors"
+  },
+  "escala_upscale": 8,
+  "dimensoes_originais": [
+    525,
+    350
+  ],
+  "timestamp": "2026-09-24T21:50:15"
+}
