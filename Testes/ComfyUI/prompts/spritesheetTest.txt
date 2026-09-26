@@ -1,0 +1,18 @@
+Redraw the character in the reference image as a new character, but instead of a single pose, generate a sprite sheet with a 2x2 grid of 4 equal cells on a plain flat background. Keep the exact same pixel art style throughout: same thick dark outline, same limited color palette depth, same flat cel-shading with hard-edged shadow steps and no gradients or anti-aliasing.
+
+The new character has these traits:
+1. Dark brown skin.
+2. Short dreadlocks, dark brown or black.
+3. Young teen hero with a lean build and the same body proportions as the reference.
+4. Sleeveless jacket in electric blue with a yellow lightning bolt emblem on the chest.
+5. Dark pants and sturdy boots.
+6. Round tinted goggles pushed up on the forehead.
+7. Small yellow lightning accents on the wrists and belt.
+
+Sheet layout:
+Cell 1 (top-left): idle standing pose, facing forward, same pose as the reference image.
+Cell 2 (top-right): walking pose, mid-stride, facing right.
+Cell 3 (bottom-left): jumping pose, arms raised, facing forward.
+Cell 4 (bottom-right): attacking pose, leaning forward, facing right.
+
+Keep the character's identity, outline, palette, and shading fully consistent across all 4 cells. Keep the character the same scale and centered within each cell, standing on the same ground line. No background details, no borders, no text, no cell dividers.

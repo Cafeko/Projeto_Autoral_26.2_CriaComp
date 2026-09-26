@@ -1,0 +1,18 @@
+{
+  "personagem": "sheetTest",
+  "sprite_base": "sprites\\base\\sprite-test.png",
+  "prompt": "Redraw the character in the reference image as a new character, but instead of a single pose, generate a sprite sheet with a 2x2 grid of 4 equal cells on a plain flat background. Keep the exact same pixel art style throughout: same thick dark outline, same limited color palette depth, same flat cel-shading with hard-edged shadow steps and no gradients or anti-aliasing.\n\nThe new character has these traits:\n1. Dark brown skin.\n2. Short dreadlocks, dark brown or black.\n3. Young teen hero with a lean build and the same body proportions as the reference.\n4. Sleeveless jacket in electric blue with a yellow lightning bolt emblem on the chest.\n5. Dark pants and sturdy boots.\n6. Round tinted goggles pushed up on the forehead.\n7. Small yellow lightning accents on the wrists and belt.\n\nSheet layout:\nCell 1 (top-left): idle standing pose, facing forward, same pose as the reference image.\nCell 2 (top-right): walking pose, mid-stride, facing right.\nCell 3 (bottom-left): jumping pose, arms raised, facing forward.\nCell 4 (bottom-right): attacking pose, leaning forward, facing right.\n\nKeep the character's identity, outline, palette, and shading fully consistent across all 4 cells. Keep the character the same scale and centered within each cell, standing on the same ground line. No background details, no borders, no text, no cell dividers.",
+  "seed": 599761938,
+  "workflow": "sprites-workflow",
+  "modelo": {
+    "unet_name": "flux-2-klein-base-4b-fp8.safetensors",
+    "clip_name": "qwen_3_4b.safetensors",
+    "vae_name": "full_encoder_small_decoder.safetensors"
+  },
+  "escala_upscale": 8,
+  "dimensoes_originais": [
+    525,
+    350
+  ],
+  "timestamp": "2026-09-25T20:52:00"
+}

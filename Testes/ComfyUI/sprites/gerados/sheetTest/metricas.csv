@@ -1,0 +1,2 @@
+timestamp,base,gerado,largura_base,altura_base,largura_gerado,altura_gerado,tamanho_bate,iou,centro_base_x,centro_base_y,centro_gerado_x,centro_gerado_y,distancia_centro_px,cores_unicas_base,cores_unicas_gerado
+2026-09-25T20:52:09,sprites\base\sprite-test.png,sprites\gerados\sheetTest\20260925_205200_seed599761938.png,525,350,525,350,True,0.006249898276395241,261.6418721144271,167.10000301759257,257.1925678031095,166.531618210974,4.485462088024378,206,17749

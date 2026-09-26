@@ -66,7 +66,7 @@ python scripts/gerar_sprite.py \
   --prompt prompts/heroi.txt \
   --personagem heroi \
   --escala 8 \
-  --workflow flux2_klein_edit
+  --workflow sprites-workflow
 ```
 
 Passos executados:
