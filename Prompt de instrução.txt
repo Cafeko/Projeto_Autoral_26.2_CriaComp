@@ -1,0 +1,26 @@
+Generate a new pixel art spritesheet based on the provided reference spritesheet and the character description below.
+
+CHARACTER DESCRIPTION:
+[INSIRA AQUI A DESCRIÇÃO DO PERSONAGEM]
+
+Use the provided spritesheet as the visual and structural reference for the generation.
+
+The character described above must remain consistent throughout the entire generated spritesheet. Every frame must represent the same character, maintaining the character's recognizable visual identity and the characteristics specified in the character description.
+
+Adapt the character to the poses, movements, body orientations, and compositions represented in the reference spritesheet. Preserve the general arrangement, framing, proportions, and positioning of the frames from the reference.
+
+IMAGE SIZE AND RESOLUTION:
+Maintain exactly the same image dimensions and resolution as the provided reference spritesheet. The final spritesheet must have exactly the same width and height as the reference image. Do not resize, upscale, downscale, crop, extend, or change the canvas dimensions. Do not increase the resolution or add pixels in order to include more details. Preserve the same pixel density and resolution of the reference.
+
+SPRITESHEET STRUCTURE:
+Preserve the same frame layout, frame dimensions, number of frames, spacing, and overall arrangement of the reference spritesheet. Do not add additional frames or expand the spritesheet to accommodate the character or additional details.
+
+Maintain the artistic style of the reference spritesheet, including its pixel art appearance, pixel density, outline treatment, color palette characteristics, shading approach, level of detail, and overall visual language. The generated sprites should look like they belong to the same artistic style as the reference.
+
+Keep the character's defining visual characteristics consistent between all frames. Do not introduce changes to the character's clothing, hair, accessories, colors, or other defining features unless required by the pose.
+
+Do not add unnecessary characters, objects, effects, text, backgrounds, or visual elements that are not present or required by the reference spritesheet.
+
+Do not manually alter, retouch, or redraw individual frames after generation.
+
+The final result must be a complete spritesheet containing the generated character across the corresponding poses and frames of the reference spritesheet, using exactly the same image dimensions, resolution, frame structure, and pixel density as the reference.
