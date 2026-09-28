@@ -1,0 +1,3 @@
+Site auto slice spritesheets: https://www.kokutech.com/tools/spriteslice
+Fazer gif: Piskel
+Remover fundo: https://www.remove.bg/pt-br/upload
