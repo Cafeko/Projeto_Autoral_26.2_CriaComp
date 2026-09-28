@@ -1,26 +1,148 @@
 Generate a new pixel art spritesheet based on the provided reference spritesheet and the character description below.
 
 CHARACTER DESCRIPTION:
-[INSIRA AQUI A DESCRIÇÃO DO PERSONAGEM]
 
-Use the provided spritesheet as the visual and structural reference for the generation.
+[INSERT CHARACTER DESCRIPTION HERE]
 
-The character described above must remain consistent throughout the entire generated spritesheet. Every frame must represent the same character, maintaining the character's recognizable visual identity and the characteristics specified in the character description.
 
-Adapt the character to the poses, movements, body orientations, and compositions represented in the reference spritesheet. Preserve the general arrangement, framing, proportions, and positioning of the frames from the reference.
+REFERENCE SPRITESHEET:
 
-IMAGE SIZE AND RESOLUTION:
-Maintain exactly the same image dimensions and resolution as the provided reference spritesheet. The final spritesheet must have exactly the same width and height as the reference image. Do not resize, upscale, downscale, crop, extend, or change the canvas dimensions. Do not increase the resolution or add pixels in order to include more details. Preserve the same pixel density and resolution of the reference.
+Use the provided spritesheet as the visual, structural, positional, and animation reference.
 
-SPRITESHEET STRUCTURE:
-Preserve the same frame layout, frame dimensions, number of frames, spacing, and overall arrangement of the reference spritesheet. Do not add additional frames or expand the spritesheet to accommodate the character or additional details.
+The reference spritesheet is the exact template for the output structure. It is not merely an inspiration or a general visual reference.
 
-Maintain the artistic style of the reference spritesheet, including its pixel art appearance, pixel density, outline treatment, color palette characteristics, shading approach, level of detail, and overall visual language. The generated sprites should look like they belong to the same artistic style as the reference.
 
-Keep the character's defining visual characteristics consistent between all frames. Do not introduce changes to the character's clothing, hair, accessories, colors, or other defining features unless required by the pose.
+EXACT IMAGE DIMENSIONS:
 
-Do not add unnecessary characters, objects, effects, text, backgrounds, or visual elements that are not present or required by the reference spritesheet.
+The generated spritesheet must have exactly the same width, height, and resolution as the provided reference image.
 
-Do not manually alter, retouch, or redraw individual frames after generation.
+Do not resize, upscale, downscale, crop, extend, or change the canvas dimensions.
 
-The final result must be a complete spritesheet containing the generated character across the corresponding poses and frames of the reference spritesheet, using exactly the same image dimensions, resolution, frame structure, and pixel density as the reference.
+Do not generate a larger image and then fit the sprites into it.
+
+Do not increase the resolution or add additional pixels to create more details.
+
+Preserve exactly the same pixel density and resolution as the reference spritesheet.
+
+
+EXACT FRAME COUNT:
+
+Generate exactly the same number of frames as the reference spritesheet.
+
+Do not add, remove, split, merge, duplicate, or generate additional frames.
+
+Each frame in the output must correspond directly to exactly one frame in the reference.
+
+The first generated frame corresponds to the first reference frame, the second generated frame corresponds to the second reference frame, and so on.
+
+Do not reinterpret the reference as a sequence containing a different number of poses.
+
+
+EXACT FRAME STRUCTURE:
+
+Preserve the exact frame layout, frame dimensions, spacing, and arrangement of the reference spritesheet.
+
+Each generated frame must occupy exactly the same position, width, and height as its corresponding frame in the reference.
+
+Do not change the number of rows or columns.
+
+Do not change the spacing between frames.
+
+Do not reorganize the frames.
+
+Do not create additional space around the frames.
+
+The character and all of its pixels must remain inside the boundaries of its corresponding frame.
+
+
+CHARACTER POSITION AND SCALE:
+
+For each frame, preserve the character's relative position, scale, and proportions from the corresponding reference frame.
+
+Match the character's approximate bounding box within each frame.
+
+Preserve the character's horizontal and vertical placement.
+
+Do not automatically center the character.
+
+Do not independently reposition the character in each frame.
+
+Do not make the character larger or smaller simply to add more detail.
+
+Preserve approximately the same amount of empty space around the character as in the corresponding reference frame.
+
+The character should occupy approximately the same area of each frame as the character in the corresponding reference frame.
+
+
+POSES AND MOVEMENT:
+
+Preserve the exact poses, body orientations, movements, and general silhouettes represented by the corresponding reference frames.
+
+The generated character should perform the same animation sequence as the reference character.
+
+Do not invent additional poses or movements.
+
+Do not combine multiple reference poses into a single frame.
+
+Do not omit poses from the reference.
+
+
+CHARACTER CONSISTENCY:
+
+Every frame must depict the same character.
+
+Maintain the character's recognizable visual identity throughout the entire spritesheet.
+
+Keep the same hair, hairstyle, eyebrows, eyes, clothing, colors, accessories, body proportions, and other defining characteristics in every frame.
+
+Do not change the character's clothing, hairstyle, accessories, or colors between frames unless a change is directly caused by the character's pose or movement.
+
+
+ARTISTIC STYLE:
+
+Maintain the artistic style of the reference spritesheet.
+
+Preserve its pixel art appearance, pixel density, outline treatment, color palette characteristics, shading approach, level of detail, proportions, and overall visual language.
+
+The generated sprites should look as though they belong to the same game, sprite set, and artistic style as the reference.
+
+Do not introduce a different rendering style, higher-resolution artwork, smooth vector-like details, realistic rendering, or excessive detail.
+
+
+COLOR CONSISTENCY:
+
+Respect all colors specified in the character description.
+
+Keep the character's defining colors consistent across every frame.
+
+Do not arbitrarily change defining colors between frames.
+
+
+BACKGROUND AND EXTRA ELEMENTS:
+
+Do not add unnecessary characters, objects, effects, text, UI elements, decorations, or additional visual elements.
+
+Preserve the background/transparency characteristics of the reference spritesheet.
+
+Do not add elements that are not present or required by the reference.
+
+
+FINAL OUTPUT:
+
+The final result must be a complete pixel art spritesheet containing the same number of frames as the reference.
+
+It must have exactly the same image dimensions, resolution, frame dimensions, frame arrangement, and overall structure as the reference.
+
+Each output frame must correspond to the same frame position and animation pose as the corresponding reference frame.
+
+The character must remain recognizable as the same character throughout all frames.
+
+Do not manually alter, retouch, redraw, rearrange, resize, or edit individual frames after generation.
+
+IMPORTANT:
+
+The reference spritesheet defines the exact spatial structure of the output.
+
+Do not prioritize adding visual detail over preserving the original resolution, frame boundaries, character scale, character position, and frame count.
+
+If there is a conflict between adding detail and preserving the reference's resolution and structure, preserve the reference's resolution and structure.
