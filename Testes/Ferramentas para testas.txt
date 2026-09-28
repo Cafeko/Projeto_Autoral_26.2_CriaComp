@@ -1,4 +1,4 @@
-- ComfyUI
+- ComfyUI: A geração com os modelos FLUX.1 Kontext Dev e SDXL 1.0 não foi satisfatória. Em grande parte pelas limitações de VRAM devido a ter que gerar as imagens localmente.
 
 - Geminy: Foi até que bem, com alguns ajustes da para usar de boa.
 
