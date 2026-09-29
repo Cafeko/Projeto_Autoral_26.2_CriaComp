@@ -63,8 +63,8 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 - **Tentativa 1 (descartada)** (Alucard(SoTN)(1).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
 - **Tentativa 2 (descartada)** (Alucard(SoTN)(2).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica Não. Motivo: não está com a perna cruzada igual ao original
 - **Tentativa 3 (descartada)** (Gemini_Generated_Image_yh6b6fyh6b6fyh6b.jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-- **Tentativa 4 (descartada)** ([a gerar]): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-- **Tentativa 5 (descartada)** ([a gerar]): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
+- **Tentativa 4 (descartada)** (tentativa 4 - Alucard(SoTN).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
+- **Tentativa 5 (descartada)** (tentativa 5 - Alucard(SoTN).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
 **Resultado: não entra na coleção (até aqui).**
 
 ### Imagem 02 — Chrono(CT)
@@ -105,8 +105,8 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 ### Imagem 07 — GBA sprite  Fire Emble
 - **Tentativa 1** (LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 N/A 6 não | Placar 2 | Fica não. Obs: Imagem com bem menos detalhes e cores alem de ter um contorno com uma cor bem diferente da original que é todo preto
-- **Tentativa 2** ([a gerar]): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
-- **Tentativa 3** ([a gerar]): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 não | Placar 4 | Fica sim.
+- **Tentativa 2** (tentativa 2 - LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
+- **Tentativa 3** (tentativa 3 - LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 não | Placar 4 | Fica sim.
 **Resultado: fica na coleção, com a tentativa 2.**
 
 ### Imagem 08 — Luigiwalk

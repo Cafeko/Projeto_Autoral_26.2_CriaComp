@@ -178,7 +178,7 @@ Nenhuma imagem gerada foi editada, cortada ou retocada depois de gerada — isso
 
 ## 6. Limitações encontradas
 
-- O Gemini não gera imagens no mesmo tamanho e resolução exatos da referência, mesmo quando isso é pedido explicitamente no prompt. Por isso o eixo do grupo foi ajustado de "mesmo tamanho, resolução e estrutura" para "mesma proporção e estrutura".
+- O Gemini não gera imagens no mesmo tamanho e resolução exatos da referência, mesmo quando isso é pedido explicitamente no prompt. Por isso o eixo do grupo foi ajustado de "mesmo tamanho, resolução e estrutura" para "mesma proporção, estrutura e pose".
 - O Gemini não permite fixar uma semente (seed), então não é possível reproduzir exatamente o mesmo resultado de novo.
 - Na referência 5, a tentativa 2 gerou um item (mochila) não presente na descrição do personagem nem na referência. Isso contraria diretamente duas instruções explícitas do próprio prompt ("do not add additional visual details merely because they are mentioned in the character description" e "do not add unnecessary objects"), mostrando que o modelo nem sempre segue à risca as restrições declaradas, mesmo quando estão escritas com clareza.
 - Na referência 8, uma tentativa de geração falhou por erro técnico da ferramenta, e não por decisão do grupo — diferente da referência 5, que esgotou as tentativas por resultado ruim repetido.
