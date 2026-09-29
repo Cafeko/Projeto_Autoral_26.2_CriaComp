@@ -42,33 +42,33 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 | Imagem | Referência | Tentativas | Resultado |
 |---|---|---|---|
-| 1 | Naruto(atk1) | 1 | [PREENCHER — ✅ Fica / ❌ Descartada] |
-| 2 | Naruto(Idle) | 1 | [PREENCHER] |
-| 3 | Naruto(walk) | 1 | [PREENCHER] |
+| 1 | Naruto(atk1) | 1 | ❌ Descartada |
+| 2 | Naruto(Idle) | 1 | ❌ Descartada |
+| 3 | Naruto(walk) | 1 | ✅ Fica (tentativa 1) |
 
-**Coleção final: [PREENCHER — ex.: X imagens (listar números)].**
+**Coleção final: 1 imagem (03).**
 
 ## 4. Detalhamento de cada imagem
 
 ### Imagem 01 — Naruto(atk1)
-- **Tentativa(s):** [PREENCHER — tentativa 1 - Shaka(Naruto)(atk1).png: A/B/C? pontuação?]
-- **Pontuação:** [PREENCHER — ex.: 6/6 ou 5/5]
-- **Resultado:** [PREENCHER — fica / descartada + motivo]
+- **Tentativa 1 (descartada)** (tentativa 1 - Shaka(Naruto)(atk1).png): Tipo spritesheet | A sim, B sim, C sim, D não | 1-6 N/A (não avaliado — já descartada em D).
+- **Pontuação:** — (descartada na obrigatória D)
+- **Resultado:** não entra na coleção. Motivo: não segue a mesma pose da original — muda o braço no último frame.
 
 ### Imagem 02 — Naruto(Idle)
-- **Tentativa(s):** [PREENCHER — tentativa 1 - Shaka(Naruto)(Idle).png]
-- **Pontuação:** [PREENCHER]
-- **Resultado:** [PREENCHER]
+- **Tentativa 1 (descartada)** (tentativa 1 - Shaka(Naruto)(Idle).png): Tipo spritesheet | A sim, B sim, C não, D não | Q5 não (um frame a menos); 1-4 e 6 N/A.
+- **Pontuação:** — (descartada nas obrigatórias C/D)
+- **Resultado:** não entra na coleção. Motivo: tem um frame a menos do que deveria.
 
 ### Imagem 03 — Naruto(walk)
-- **Tentativa(s):** [PREENCHER — tentativa 1 - Shaka(Naruto)(Walk)(1).jpg]
-- **Pontuação:** [PREENCHER]
-- **Resultado:** [PREENCHER]
+- **Tentativa 1** (tentativa 1 - Shaka(Naruto)(Walk)(1).jpg): Tipo spritesheet | A sim, B sim, C sim, D sim | 1 sim, 2 sim, 3 sim, 4 sim, 5 sim, 6 sim.
+- **Pontuação:** 6/6
+- **Resultado:** fica na coleção, com a tentativa 1.
 
 ## 5. Observações sobre descartes (se houver tipos diferentes)
 
-| | [PREENCHER — Imagem X] | [PREENCHER — Imagem Y] |
+| | Imagem 01 | Imagem 02 |
 |---|---|---|
-| Motivo do descarte | [PREENCHER] | [PREENCHER] |
-| Tentativas esgotadas? | [PREENCHER] | [PREENCHER] |
-| Tipo de limitação | [PREENCHER — do modelo / da ferramenta] | [PREENCHER] |
+| Motivo do descarte | Pose divergente (D não): muda o braço no último frame | Estrutura divergente (C não + Q5 não): um frame a menos |
+| Tentativas esgotadas? | Não — 1 de 5 usada | Não — 1 de 5 usada |
+| Tipo de limitação | Do modelo (não segue a pose pedida) | Do modelo (não mantém o nº de frames) |
