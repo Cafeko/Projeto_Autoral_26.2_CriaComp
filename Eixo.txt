@@ -1,7 +1,14 @@
 EIXO
 
-Uma coleção de sprites e spritesheets de um personagem gerados com base em sprites e spritesheets já existentes e em uma descrição das características visuais do personagem; a restrição é utilizar um prompt único, sem retocar as imagens depois, mantendo o mesmo tamanho, resolução e estrutura da referência; o que se repete é o personagem descrito e o que varia é o sprite ou spritesheet utilizado como referência.
+Uma coleção de sprites e spritesheets de um personagem gerados com base em sprites e spritesheets já existentes e em uma 
+descrição das características visuais do personagem; a restrição é utilizar sempre o mesmo prompt, podendo ser reenviado 
+mais de uma vez para a mesma referência sem alterar o texto e sem apontar falhas do resultado anterior, sem retocar as 
+imagens depois de geradas e mantendo a mesma proporção e estrutura da referência; o que se repete é o personagem descrito 
+e o que varia é o sprite ou spritesheet utilizado como referência.
 
 CRITÉRIOS PARA DESCARTE
 
-Serão descartados os sprites e spritesheets em que as características descritas do personagem não forem mantidas de forma reconhecível, o personagem não permanecer reconhecível como o mesmo personagem ou houver uma diferença significativa em relação ao estilo artístico da referência. No caso dos spritesheets, também serão descartados aqueles em que a quantidade, organização ou estrutura dos frames da referência não for preservada.
+Serão descartados os sprites e spritesheets em que as características descritas do personagem não forem mantidas de forma 
+reconhecível, o personagem não permanecer reconhecível como o mesmo personagem entre os frames ou houver uma diferença 
+significativa em relação ao estilo artístico da referência. No caso dos spritesheets, também serão descartados aqueles em 
+que a quantidade, organização ou estrutura dos frames da referência não for preservada.
