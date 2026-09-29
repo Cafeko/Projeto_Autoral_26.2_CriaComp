@@ -19,6 +19,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 | A | O prompt foi enviado exatamente igual em todas as tentativas dessa referência, sem apontar falhas da tentativa anterior nem pedir correção? |
 | B | A imagem não foi editada manualmente depois de gerada? |
 | C | A proporção e a estrutura geral do resultado correspondem às da referência? |
+| D | A pose corresponde à da referência? (único: a pose; spritesheet: cada pose, uma a uma, na posição correspondente) |
 
 ### 2.2 Perguntas de pontuação (a imagem precisa acertar a maioria)
 
@@ -26,12 +27,14 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 |---|---|
 | 1 | As características marcantes do personagem aparecem reconhecíveis? |
 | 2 | O traço tem bordas de pixel real, sem suavização? |
-| 3 | A paleta de cores é reduzida (poucas cores)? |
-| 4 | Não há sombreamento em degradê? |
-| 5 | *(spritesheet)* O número de poses bate com o da referência? |
-| 6 | *(spritesheet)* Cada pose corresponde à posição equivalente na referência? |
+| 3 | O nível de cores é similar ao da imagem original? |
+| 4 | O nível de detalhe de shading e o contorno são similares aos da imagem original? |
+| 5 | *(só spritesheet)* O número de poses bate com o da referência? (único: N/A) |
+| 6 | O nível de detalhe é similar ao da imagem original? |
 
-**Regra de aprovação:** as 3 obrigatórias precisam ser "sim". Das perguntas de pontuação, é preciso acertar pelo menos 5 de 6 em spritesheets, ou 3 de 4 em sprites únicos (que não têm as perguntas 5 e 6).
+**Regra de aprovação:** as 4 obrigatórias precisam ser "sim". Das perguntas de pontuação, é preciso acertar pelo menos 5 de 6 em spritesheets, ou 4 de 5 em sprites únicos (que não têm a pergunta 5).
+
+> Pose divergente reprova por si: é obrigatória D e exigência do eixo (manter proporção e estrutura) — falhar C/D já descarta, independente do placar.
 
 **Limite de tentativas:** cada referência pode ser reenviada até 5 vezes, sempre com o mesmo prompt, sem nenhuma alteração no texto e sem apontar o que saiu errado na tentativa anterior.
 
@@ -60,7 +63,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 ### Imagem 1 — Alucard(SoTN)
 - **Tentativa(s):** [PREENCHER — nº de tentativas, sem edição? estrutura compatível?]
-- **Pontuação:** [PREENCHER — ex.: 6/6 ou 4/4]
+- **Pontuação:** [PREENCHER — ex.: 6/6 ou 5/5]
 - **Resultado:** [PREENCHER — fica / descartada + motivo]
 
 ### Imagem 2 — Chrono(CT)

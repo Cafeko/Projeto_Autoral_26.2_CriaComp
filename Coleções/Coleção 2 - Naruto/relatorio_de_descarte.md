@@ -17,6 +17,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 | A | O prompt foi enviado exatamente igual em todas as tentativas dessa referência, sem apontar falhas da tentativa anterior nem pedir correção? |
 | B | A imagem não foi editada manualmente depois de gerada? |
 | C | A proporção e a estrutura geral do resultado correspondem às da referência? |
+| D | A pose corresponde à da referência? (único: a pose; spritesheet: cada pose, uma a uma, na posição correspondente) |
 
 ### 2.2 Perguntas de pontuação (a imagem precisa acertar a maioria)
 
@@ -24,12 +25,14 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 |---|---|
 | 1 | As características marcantes do personagem aparecem reconhecíveis? |
 | 2 | O traço tem bordas de pixel real, sem suavização? |
-| 3 | A paleta de cores é reduzida (poucas cores)? |
-| 4 | Não há sombreamento em degradê? |
-| 5 | *(spritesheet)* O número de poses bate com o da referência? |
-| 6 | *(spritesheet)* Cada pose corresponde à posição equivalente na referência? |
+| 3 | O nível de cores é similar ao da imagem original? |
+| 4 | O nível de detalhe de shading e o contorno são similares aos da imagem original? |
+| 5 | *(só spritesheet)* O número de poses bate com o da referência? (único: N/A) |
+| 6 | O nível de detalhe é similar ao da imagem original? |
 
-**Regra de aprovação:** as 3 obrigatórias precisam ser "sim". Das perguntas de pontuação, é preciso acertar pelo menos 5 de 6 em spritesheets, ou 3 de 4 em sprites únicos (que não têm as perguntas 5 e 6).
+**Regra de aprovação:** as 4 obrigatórias precisam ser "sim". Das perguntas de pontuação, é preciso acertar pelo menos 5 de 6 em spritesheets, ou 4 de 5 em sprites únicos (que não têm a pergunta 5).
+
+> Pose divergente reprova por si: é obrigatória D e exigência do eixo (manter proporção e estrutura) — falhar C/D já descarta, independente do placar.
 
 **Limite de tentativas:** cada referência podia ser reenviada até 3 vezes, sempre com o mesmo prompt, sem nenhuma alteração no texto e sem apontar o que tinha saído errado na tentativa anterior.
 
@@ -68,9 +71,9 @@ Uma tentativa, sem edição, estrutura compatível. Pontuação: 6/6.
 **Resultado: fica na coleção.**
 
 ### Imagem 5 — Guerreiro armado
-- **Tentativa 1 (descartada):** pose mudou de combate para uma posição estática de frente — falhou a obrigatória C.
-- **Tentativa 2 (descartada):** mesma falha de estrutura, e ainda apareceu uma mochila que não estava na descrição do personagem nem na referência, além de sombreamento em degradê no rosto e na mochila.
-- **Tentativa 3 (descartada):** removeu a mochila e reduziu o sombreamento, mas manteve a mesma falha de estrutura — a pose continuou estática, sem corresponder à pose de combate da referência.
+- **Tentativa 1 (descartada):** pose mudou de combate para uma posição estática de frente — falhou as obrigatórias C e D.
+- **Tentativa 2 (descartada):** mesma falha de estrutura/pose (C/D), e ainda apareceu uma mochila que não estava na descrição do personagem nem na referência, além de sombreamento em degradê no rosto e na mochila.
+- **Tentativa 3 (descartada):** removeu a mochila e reduziu o sombreamento, mas manteve a mesma falha de estrutura/pose (C/D) — a pose continuou estática, sem corresponder à pose de combate da referência.
 
 Limite de 3 tentativas esgotado sem sucesso.
 **Resultado: não entra na coleção.**
@@ -80,13 +83,13 @@ Uma tentativa, sem edição, estrutura e poses compatíveis com a referência. P
 **Resultado: fica na coleção.**
 
 ### Imagem 7 — Luigi
-- **Tentativa 1 (descartada):** pose de três quartos, com o braço estendido à frente, diferente da postura reta e lateral da referência.
-- **Tentativa 2:** mesmo prompt, sem alterações. Corrigiu a pose, manteve a orientação da referência. Pontuação: 4/4 (critério de sprite único).
+- **Tentativa 1 (descartada):** pose de três quartos, com o braço estendido à frente, diferente da postura reta e lateral da referência — falhou as obrigatórias C e D.
+- **Tentativa 2:** mesmo prompt, sem alterações. Corrigiu a pose (D sim), manteve a orientação da referência. Pontuação: 5/5 (critério de sprite único: 1, 2, 3, 4 e 6-detalhe).
 **Resultado: fica na coleção, com a tentativa 2.**
 
 ### Imagem 8 — Estilo Kingdom Hearts
-- **Tentativa 1 (descartada):** falhou na obrigatória de estrutura e na maior parte da pontuação (cores em excesso, degradê, sem bordas de pixel real).
-- **Tentativa 2 (descartada):** piorou o problema de estrutura — em vez de manter uma pose única como a referência, gerou quatro poses diferentes de corrida, com nível de detalhe inconsistente entre elas.
+- **Tentativa 1 (descartada):** falhou nas obrigatórias de estrutura/pose (C/D) e na maior parte da pontuação (cores em excesso, degradê, sem bordas de pixel real).
+- **Tentativa 2 (descartada):** piorou o problema de estrutura/pose (C/D) — em vez de manter uma pose única como a referência, gerou quatro poses diferentes de corrida, com nível de detalhe inconsistente entre elas.
 - **Tentativa 3:** não foi possível gerar — falha técnica da ferramenta, não decisão do grupo.
 
 **Resultado: não entra na coleção.**
