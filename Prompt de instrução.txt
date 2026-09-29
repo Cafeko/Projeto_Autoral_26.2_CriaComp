@@ -1,112 +1,240 @@
-Generate a new sprite sheet using the provided reference sprite sheet as the strict visual and technical reference.
+Generate a new sprite sheet based on the provided reference sprite sheet and the character description below.
 
 CHARACTER DESCRIPTION:
 
 [INSERT CHARACTER DESCRIPTION HERE]
 
-REFERENCE:
 
-The provided sprite sheet is the source of the visual style, technical limitations, composition, and animation structure.
+STYLE AND TECHNICAL LIMITATIONS:
 
-Recreate the character from the description above as if it were originally created for the same sprite sheet as the reference.
+Create the character as a native NES-era video game sprite.
 
-Do not apply any external or predefined art style. Do not reinterpret the image as NES, SNES, modern pixel art, anime, or any other style.
+The image must look like a sprite that was originally created for an NES-era game, not like a modern high-resolution illustration converted into pixel art.
 
-STYLE:
+Use the visual and technical limitations associated with NES-era sprites:
 
-Match the reference image exactly in its visual language, including:
+- extremely low-resolution sprite design
+- very small sprites
+- large, clearly visible pixels
+- hard pixel edges
+- no anti-aliasing
+- no smooth edges
+- no gradients
+- no soft shadows
+- no subpixel details
+- very limited color palette
+- simple geometric pixel shapes
+- minimal shading
+- minimal texture
+- simplified facial features
+- simplified anatomy
+- simplified clothing details
+- no high-resolution details
 
-* pixel density and pixel size
-* sprite scale
-* level of detail
-* color complexity
-* palette limitations
-* outlines
-* shading
-* shapes and proportions
-* facial simplification
-* clothing simplification
-* overall visual complexity
+The character must be designed DIRECTLY at the same pixel scale and visual complexity as the reference.
 
-The reference determines how much detail can exist.
+Do not create a detailed character and then convert it into pixel art.
 
-Do not increase the resolution, pixel density, color complexity, or level of detail to represent the character description.
+Do not simulate pixel art at a higher resolution.
 
-If a feature cannot be represented at the reference's resolution, simplify it rather than adding more pixels.
+Do not use modern high-resolution pixel art.
 
-The character description must adapt to the reference, not the reference to the character.
+Do not add details that would require more pixels than the reference can represent.
 
-SPRITE SHEET:
+If a feature cannot be represented clearly at the reference's resolution, simplify that feature instead of adding more pixels.
 
-Match the exact structure of the reference.
 
-* Same canvas dimensions
-* Same aspect ratio
-* Same number of frames
-* Same frame arrangement
-* Same frame order
-* Same spacing between frames
-* Same sprite scale
-* Same general composition
+REFERENCE AS A TECHNICAL TEMPLATE:
 
-Do not add, remove, duplicate, split, or merge frames.
+Treat the provided reference sprite sheet as a strict technical template, not merely as visual inspiration.
 
-POSE AND POSITION:
+Preserve its original pixel density, sprite scale, visual complexity, and level of abstraction.
 
-For every frame, preserve the corresponding reference frame's:
+The generated sprites must have approximately the same amount of information and detail per sprite as the reference.
 
-* pose
-* body orientation
-* movement
-* silhouette
-* position
-* framing
-* approximate empty space
+Do not make the character more detailed than the original sprites.
 
-Do not invent new poses or movements.
+Do not make the character larger in order to show more details.
 
-Do not automatically center the character.
+Do not increase the pixel density.
 
-Do not enlarge the character to accommodate additional details.
 
-PIXEL AND COLOR LIMITATIONS:
+IMAGE DIMENSIONS:
 
-Follow the actual limitations visible in the reference.
+Use exactly the same canvas dimensions as the reference sprite sheet.
 
-Use the same degree of pixel simplification and color reduction.
+Do not change the aspect ratio.
 
-Use hard pixel edges.
+Do not crop the reference.
 
-Do not use anti-aliasing, gradients, smooth digital edges, soft shadows, or high-resolution details unless they are visibly present in the reference.
+Do not extend the canvas.
 
-Keep the character's defining features recognizable while simplifying them to fit the reference.
+Do not add margins.
 
-Do not introduce additional colors or shades merely to create realism, lighting, depth, texture, or detail.
+Do not add padding.
+
+Do not generate a larger canvas to accommodate additional detail.
+
+The output must preserve the same overall dimensions and proportions of the reference.
+
+
+SPRITE SHEET STRUCTURE:
+
+Generate exactly the same number of frames as the reference.
+
+Do not add additional frames.
+
+Do not remove frames.
+
+Do not duplicate frames.
+
+Do not split frames.
+
+Do not merge frames.
+
+Each output frame corresponds directly to one frame of the reference.
+
+Preserve the same frame order.
+
+Preserve the same arrangement of frames.
+
+Preserve the same spacing between frames.
+
+Preserve the same general composition of the sprite sheet.
+
+
+SPRITE SCALE:
+
+The character must remain approximately the same size relative to each frame as the character in the reference.
+
+Do not enlarge the character.
+
+Do not make the character occupy substantially more pixels than the reference character.
+
+Do not add extra space by increasing the canvas size.
+
+Do not compensate for the character description by increasing the sprite resolution.
+
+The character must be simplified to fit the reference sprite scale.
+
+
+POSITION:
+
+Preserve the approximate position of the character within each corresponding frame.
+
+Do not automatically center every sprite.
+
+Do not independently reposition the character in each frame.
+
+Preserve the approximate amount of empty space surrounding the character.
+
+Keep the character inside the same general area occupied by the corresponding reference sprite.
+
+
+POSES:
+
+Preserve the poses, body orientations, movements, and silhouettes of the corresponding reference frames.
+
+The generated character must follow the same animation sequence as the reference.
+
+Do not invent additional poses.
+
+Do not remove poses.
+
+Do not combine multiple poses into one frame.
+
+
+COLOR LIMITATIONS:
+
+Preserve the limited-color visual language of the reference.
+
+Use a small, discrete palette.
+
+Do not introduce many additional shades.
+
+Do not use gradients.
+
+Do not use smooth color transitions.
+
+Do not add colors simply to create more realistic lighting or depth.
+
+Do not use photographic color variation.
+
+Do not create hundreds or thousands of slightly different colors.
+
+The colors specified in the character description must be simplified into a small pixel-art palette while remaining visually recognizable.
+
+Keep the defining character colors consistent between frames.
+
+
+SHADING:
+
+Use extremely simple sprite-style shading.
+
+Use only a small number of discrete color regions.
+
+Do not use realistic lighting.
+
+Do not use soft shadows.
+
+Do not use ambient occlusion.
+
+Do not use texture shading.
+
+Do not add highlights or shadows that are not necessary to distinguish the character's forms.
+
+
+OUTLINES:
+
+Use hard, discrete pixel outlines consistent with the reference.
+
+Do not use anti-aliased outlines.
+
+Do not create smooth curves.
+
+Represent curves and diagonals using stepped pixel shapes.
+
 
 CHARACTER CONSISTENCY:
 
-The character must remain visually consistent across every frame.
+Every frame must depict the same character.
 
-Maintain the character's defining features, clothing, colors, hairstyle, and accessories throughout the sprite sheet.
+Keep the character's defining characteristics consistent throughout the entire sprite sheet.
 
-Simplify these features when necessary to match the reference's limitations.
+Maintain the same clothing, hair, accessories, colors, and other identifying characteristics across all frames.
 
-Do not add details that would exceed the visual complexity of the reference.
+Simplify these characteristics when necessary to fit the limited pixel resolution.
+
+Do not add additional visual details merely because they are mentioned in the character description.
+
 
 BACKGROUND:
 
-Preserve the reference's background or transparency characteristics.
+Preserve the background or transparency characteristics of the reference.
 
-Do not add text, effects, objects, decorations, or environmental elements.
+Do not add unnecessary objects, effects, text, decorations, characters, or environmental elements.
 
-PRIORITY:
 
-Follow these priorities in order:
+MOST IMPORTANT RULE:
 
-1. Match the reference's visual style and technical limitations.
-2. Match the reference's sprite sheet structure and dimensions.
-3. Match the reference's poses, positions, and animation.
-4. Represent the character description within those limitations.
-5. Simplify any character feature that cannot fit naturally into the reference.
+The reference's pixel limitations are more important than adding detail.
 
-The final result should look like the same type of sprite sheet as the provided reference, as if the described character had originally been created within the exact same visual and technical constraints.
+When there is not enough resolution to represent a characteristic in detail, simplify it.
+
+NEVER increase the resolution, pixel density, sprite size, color complexity, or visual detail to accommodate the character description.
+
+The result should look like an authentic low-resolution NES-era game sprite sheet that was created directly within severe hardware and pixel limitations.
+
+It should NOT look like a modern detailed pixel-art illustration.
+
+Do not upscale.
+
+Do not add detail.
+
+Do not add unnecessary colors.
+
+Do not add extra pixels.
+
+Do not increase sprite size.
+
+Do not increase pixel density.
