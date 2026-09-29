@@ -10,7 +10,7 @@ O prompt abaixo foi enviado exatamente igual, sem nenhuma alteração, em todas 
 >
 > CHARACTER DESCRIPTION:
 >
-> A young ninja boy with spiky yellow hair, a dark blue forehead protector, and three short whisker marks on each cheek. He wears an orange jacket and orange pants with dark blue accents, and dark blue sandals. Simple, small, cartoon-like proportions.
+> [INSERT CHARACTER DESCRIPTION HERE]
 >
 > STYLE AND TECHNICAL LIMITATIONS:
 >
