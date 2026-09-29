@@ -36,23 +36,23 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 > Pose divergente reprova por si: é obrigatória D e exigência do eixo (manter proporção e estrutura) — falhar C/D já descarta, independente do placar.
 
-**Limite de tentativas:** cada referência pode ser reenviada até 5 vezes, sempre com o mesmo prompt, sem nenhuma alteração no texto e sem apontar o que saiu errado na tentativa anterior.
+**Limite de tentativas:** cada referência podia ser reenviada até 5 vezes, sempre com o mesmo prompt, sem nenhuma alteração no texto e sem apontar o que saiu errado na tentativa anterior. Geração encerrada: não serão produzidas novas imagens para esta coleção.
 
 ## 3. Resultado resumido
 
 | Imagem | Referência | Tentativas avaliadas | Resultado |
 |---|---|---|---|
-| 01 | Alucard(SoTN) | 5 | ❌ Nenhuma aprovada até aqui |
+| 01 | Alucard(SoTN) | 5 | ❌ Nenhuma aprovada |
 | 02 | Chrono(CT) | 5 | ✅ Fica (tentativa 3) |
 | 03 | Chrono(CT)(Walk) | 5 | ✅ Fica (tentativa 3) |
-| 04 | Free-Shinobi-Sprites-Pixel-Art3(chute) | 4 | ❌ Nenhuma aprovada até aqui |
+| 04 | Free-Shinobi-Sprites-Pixel-Art3(chute) | 4 | ❌ Nenhuma aprovada |
 | 05 | Free-Shinobi-Sprites-Pixel-Art3(soco) | 2 | ✅ Fica (tentativa 1) |
-| 06 | Frisk(Undertale) | 5 | ❌ Nenhuma aprovada até aqui |
+| 06 | Frisk(Undertale) | 5 | ❌ Nenhuma aprovada |
 | 07 | GBA sprite  Fire Emble | 3 | ✅ Fica (tentativa 2) |
 | 08 | Luigiwalk | 4 | ✅ Fica (tentativa 3) |
-| 09 | ryu-bigsuper | 1 | ❌ Nenhuma aprovada até aqui |
-| 10 | ryu-ts-stance | 1 | ❌ Nenhuma aprovada até aqui |
-| 11 | Sora(KHCoM)(sem fundo) | 2 | ❌ Nenhuma aprovada até aqui |
+| 09 | ryu-bigsuper | 1 | ❌ Nenhuma aprovada |
+| 10 | ryu-ts-stance | 1 | ❌ Nenhuma aprovada |
+| 11 | Sora(KHCoM)(sem fundo) | 2 | ❌ Nenhuma aprovada |
 | 12 | Sora(KHCoM)(sem fundo)(frame) | 1 | ✅ Fica (tentativa 1) |
 
 **Coleção final (até aqui): 6 imagens (02, 03, 05, 07, 08, 12).**

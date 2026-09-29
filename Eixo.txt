@@ -1,7 +1,3 @@
 EIXO
 
-Uma coleção de sprites e spritesheets de um personagem gerados com base em sprites e spritesheets já existentes e em uma 
-descrição das características visuais do personagem; a restrição é utilizar sempre o mesmo prompt, podendo ser reenviado 
-mais de uma vez para a mesma referência sem alterar o texto e sem apontar falhas do resultado anterior, sem retocar as 
-imagens depois de geradas e mantendo a mesma proporção e estrutura da referência; o que se repete é o personagem descrito 
-e o que varia é o sprite ou spritesheet utilizado como referência.
+Três coleções de sprites e spritesheets (Goku, Naruto e Shaka de Virgem), geradas com base em sprites e spritesheets já existentes e na descrição das características visuais de cada personagem; a restrição é utilizar sempre o mesmo prompt dentro de cada coleção, podendo ser reenviado para a mesma referência sem alterar o texto e sem apontar falhas do resultado anterior (limite de 5 tentativas nas Coleções 1 e 3, 3 na Coleção 2), sem retocar as imagens depois de geradas e mantendo a mesma proporção, estrutura e pose da referência; o que se repete é o personagem descrito dentro de cada coleção e o método entre coleções, e o que varia é o sprite ou spritesheet utilizado como referência.
