@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria — Projeto Autoral · Sprites</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="kicker">Criatividade Computacional 2026.2 · Bloco 2 · Projeto Autoral</p>
+    <h1>Coleções de Sprites</h1>
+    <details id="eixoBox"><summary>Ver o eixo declarado</summary><p id="eixo"></p></details>
+    <p id="stats" class="stats"></p>
+  </div>
+</header>
+<nav class="wrap controls">
+  <div class="pills" id="colPills"></div>
+  <div class="filters">
+    <label>Status
+      <select id="fStatus">
+        <option value="todas">Todas</option>
+        <option value="fica">Aprovadas</option>
+        <option value="descartada">Descartadas</option>
+      </select>
+    </label>
+    <label>GIF
+      <select id="fGif">
+        <option value="todas">Todos</option>
+        <option value="com">Com animação</option>
+        <option value="sem">GIF pendente</option>
+      </select>
+    </label>
+    <label class="search">Buscar <input id="q" type="search" placeholder="ex.: chrono, luigi, atk"></label>
+  </div>
+</nav>
+<main class="wrap">
+  <section id="galeria"></section>
+  <section id="testes" hidden>
+    <h2>Testes</h2>
+    <p class="hint">Experimentos de ferramenta e prompt — material de apoio, não artefatos.</p>
+    <div id="testesGrid"></div>
+  </section>
+</main>
+<footer class="wrap">
+  <p>Gerado por <code>site/build.py</code> a partir das pastas, planilhas e <code>animacoes.json</code>.
+  Jeito fácil: rode <code>python site/serve.py</code>, abra <code>http://localhost:8000/site/</code> e edite à vontade —
+  o site reconstrói e recarrega sozinho.</p>
+</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

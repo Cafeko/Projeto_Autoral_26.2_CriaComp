@@ -1,0 +1,24 @@
+{
+  "tentativas": {
+    "1": {
+      "gif": null,
+      "spritesheet_modificada": false,
+      "nota": ""
+    },
+    "2": {
+      "gif": null,
+      "spritesheet_modificada": false,
+      "nota": ""
+    },
+    "3": {
+      "gif": "animacoes/tentativa 3.gif",
+      "spritesheet_modificada": false,
+      "nota": ""
+    },
+    "4": {
+      "gif": null,
+      "spritesheet_modificada": false,
+      "nota": ""
+    }
+  }
+}
