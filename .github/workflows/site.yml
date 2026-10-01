@@ -11,6 +11,8 @@ on:
       - 'site/index.html'
       - 'site/app.js'
       - 'site/styles.css'
+permissions:
+  contents: write
 jobs:
   build:
     if: ${{ !contains(github.event.head_commit.message, '[skip site]') }}
