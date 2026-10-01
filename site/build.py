@@ -29,6 +29,23 @@ COLECOES = [
 def v(x):
     return "" if x is None else str(x).strip()
 
+def norm_tipo(raw):
+    return v(raw).lower()
+
+def norm_placar(raw, tipo):
+    """Sempre 'pontuação/total': 5/6, 5/5, 4/6...; vazio se não avaliado."""
+    s = v(raw)
+    if not s or s in ("—", "N/A", "-"):
+        return ""
+    m = re.match(r"(\d+)\s*/\s*(\d+)", s)
+    if m:
+        return f"{m.group(1)}/{m.group(2)}"
+    m = re.match(r"(\d+)", s)
+    if m:
+        total = 6 if tipo == "spritesheet" else 5 if tipo == "único" else ""
+        return f"{m.group(1)}/{total}" if total else m.group(1)
+    return s
+
 def load_avaliacao(path):
     """(nome_pasta, tentativa) -> dict com tipo, A-D, placar, fica, obs."""
     out = {}
@@ -44,7 +61,7 @@ def load_avaliacao(path):
         except (TypeError, ValueError):
             continue
         out[(nome, t)] = {
-            "tipo": v(vals[3]), "placar": v(vals[14]),
+            "tipo": norm_tipo(vals[3]), "placar": v(vals[14]),
             "fica": v(vals[15]).lower() == "sim", "obs": v(vals[16]),
         }
     return out
@@ -173,22 +190,27 @@ def main():
                         asset = copy_asset(folder / rel, short_t(basedir / "animacoes", n, gi, Path(rel).suffix.lower(), "anim")) if rel else None
                         gif_list.append({"gif": asset, "nome": Path(rel).name if rel else "",
                                          "gif_modificada": mod, "gif_nota": nota})
+                    tipo = ev.get("tipo", "")
                     tents.append({
-                        "n": n, "arquivos": files, "tipo": ev.get("tipo", ""),
-                        "aprovada": fica, "placar": ev.get("placar", ""),
+                        "n": n, "arquivos": files, "tipo": tipo,
+                        "aprovada": fica, "placar": norm_placar(ev.get("placar", ""), tipo),
                         "motivo": ev.get("obs", ""),
                         "gif": gif_list[0]["gif"] if gif_list else None,
                         "gif_modificada": gif_list[0]["gif_modificada"] if gif_list else False,
                         "gif_nota": gif_list[0]["gif_nota"] if gif_list else "",
                         "gifs": gif_list,
                     })
+                tipos = {t["tipo"] for t in tents if t["tipo"]}
+                unico = bool(tipos) and all(t == "único" for t in tipos)
                 cdata["imagens"].append({
                     "numero": numero, "referencia": ref, "grupo": grupo,
                     "status": "fica" if aprovada else "descartada",
+                    "unico": unico,
+                    "tipo": "único" if unico else ("spritesheet" if "spritesheet" in tipos else ""),
                     "tentativa_aprovada": aprovada,
                     "tentativas": tents,
                     "referencia_imagens": ref_imgs,
-                    "referencia_animacao": ref_gifs[0] if ref_gifs else None,
+                    "referencia_animacao": ref_gifs[0]["src"] if ref_gifs else None,
                     "referencia_animacoes": ref_gifs,
                 })
         data["colecoes"].append(cdata)

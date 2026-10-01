@@ -117,28 +117,33 @@ function card(col, i, idx) {
   const def = i.tentativa_aprovada ?? (i.tentativas[0] && i.tentativas[0].n);
   const pick = `<span class="tpick">Tentativa: ` + i.tentativas.map((t) =>
     `<button data-t="${t.n}" class="${t.n === def ? "on" : ""}">T${t.n}${t.aprovada ? " ✓" : ""}</button>`).join("") + `</span>`;
+  const badgeT = (t) => `${t.aprovada ? `<span class="badge ok">aprovada</span>` : `<span class="badge no">descartada</span>`}
+    ${t.placar ? `<span class="meta">${esc(t.placar)}</span>` : ""}`;
+  const motivoT = (t) => (!t.aprovada && t.motivo) ? `<div class="motivo">${esc(t.motivo)}</div>` : "";
   const sheetPanels = i.tentativas.map((t) => `
     <div class="side" data-tpanel="${t.n}" ${t.n === def ? "" : "hidden"}>
-      <h4>T${t.n} ${t.aprovada ? `<span class="badge ok">aprovada</span>` : `<span class="badge no">descartada</span>`}
-        ${t.placar && t.placar !== "—" ? `<span class="meta">placar ${esc(t.placar)}</span>` : ""}</h4>
+      <h4>T${t.n} ${badgeT(t)}</h4>
       ${shots(t.arquivos)}
-      ${t.motivo ? `<div class="motivo">${esc(t.motivo)}</div>` : ""}
+      ${motivoT(t)}
     </div>`).join("");
   const gifPanels = i.tentativas.map((t) => `
     <div class="side" data-tpanel="${t.n}" ${t.n === def ? "" : "hidden"}>
-      <h4>T${t.n} ${t.aprovada ? `<span class="badge ok">aprovada</span>` : `<span class="badge no">descartada</span>`}</h4>
+      <h4>T${t.n} ${badgeT(t)}</h4>
       ${gifItems(t.gifs)}
-      ${t.motivo ? `<div class="motivo">${esc(t.motivo)}</div>` : ""}
+      ${motivoT(t)}
     </div>`).join("");
   const sheets = `<div class="cmp"><div class="side"><h4>Referência</h4>${refShots}</div>${sheetPanels}</div>`;
   const gifs = `<div class="cmp"><div class="side"><h4>Referência</h4>${refGifHtml}</div>${gifPanels}</div>`;
+  const tabs = i.unico ? "" :
+    `<span class="tabs"><button class="on" data-view="sheets">Sheets lado a lado</button><button data-view="gifs">Animações lado a lado</button></span>`;
+  const gifsView = i.unico ? "" : `<div class="view-gifs" hidden>${gifs}</div>`;
   return `<article class="card">
     <header>${badge}<h2>${esc(i.numero)} · ${esc(i.referencia)}</h2>
-      <span class="meta">${esc(col.nome)} · ${i.tentativas.length} tentativa(s)</span>
-      <span class="tabs"><button class="on" data-view="sheets">Sheets lado a lado</button><button data-view="gifs">Animações lado a lado</button></span></header>
+      <span class="meta">${i.unico ? "sprite único" : "spritesheet"} · ${esc(col.nome)} · ${i.tentativas.length} tentativa(s)</span>
+      ${tabs}</header>
     <div class="pickbar">${pick}</div>
     <div class="view-sheets">${sheets}</div>
-    <div class="view-gifs" hidden>${gifs}</div>
+    ${gifsView}
   </article>`;
 }
 
