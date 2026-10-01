@@ -1,0 +1,31 @@
+name: Rebuild gallery
+# A cada push com mudanças nas coleções, reconstrói site/ sozinho.
+# O commit gerado leva [skip site] para não entrar em loop.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Coleções/**'
+      - 'Eixo.txt'
+      - 'site/build.py'
+      - 'site/index.html'
+      - 'site/app.js'
+      - 'site/styles.css'
+jobs:
+  build:
+    if: ${{ !contains(github.event.head_commit.message, '[skip site]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install openpyxl
+      - run: python site/build.py
+      - name: Commit rebuilt site
+        run: |
+          git config user.name "site-bot"
+          git config user.email "site-bot@users.noreply.github.com"
+          git add site/data.json site/data.js site/assets
+          git diff --cached --quiet || git commit -m "Rebuild galeria [skip site]"
+          git push
