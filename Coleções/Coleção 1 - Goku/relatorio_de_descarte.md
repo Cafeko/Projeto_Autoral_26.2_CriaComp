@@ -1,8 +1,6 @@
-# Relatório de Avaliação da Coleção 1 — Sprites (Goku) — PREENCHER
+# Relatório de Avaliação da Coleção 1 — Sprites (Goku)
 
 **Projeto Autoral · Criatividade Computacional 2026.2 · Bloco 2**
-
-> Modelo vazio, mesma estrutura do relatório da Coleção 2. Preencher depois da avaliação visual. Não apagar as perguntas, só completar os campos marcados com [PREENCHER].
 
 ## 1. Por que este relatório existe
 
@@ -55,7 +53,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 | 11 | Sora(KHCoM)(sem fundo) | 2 | ❌ Nenhuma aprovada |
 | 12 | Sora(KHCoM)(sem fundo)(frame) | 1 | ✅ Fica (tentativa 1) |
 
-**Coleção final (até aqui): 6 imagens (02, 03, 05, 07, 08, 12).**
+**Coleção final (): 6 imagens (02, 03, 05, 07, 08, 12).**
 
 ## 4. Detalhamento de cada imagem
 
@@ -65,7 +63,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 - **Tentativa 3 (descartada)** (Gemini_Generated_Image_yh6b6fyh6b6fyh6b.jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
 - **Tentativa 4 (descartada)** (tentativa 4 - Alucard(SoTN).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
 - **Tentativa 5 (descartada)** (tentativa 5 - Alucard(SoTN).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-**Resultado: não entra na coleção (até aqui).**
+**Resultado: não entra na coleção ().**
 
 ### Imagem 02 — Chrono(CT)
 - **Tentativa 1** (Gemini_Generated_Image_fenhkrfenhkrfenh.jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: não está com a perna cruzada igual ao original
@@ -88,7 +86,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 - **Tentativa 2 (descartada)** (Free-Shinobi-Sprites-Pixel-Art3(chute)(2).jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
 - **Tentativa 3 (descartada)** (Free-Shinobi-Sprites-Pixel-Art3(chute)(3).jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
 - **Tentativa 4 (descartada)** (Gemini_Generated_Image_wn9wwown9wwown9w.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
-**Resultado: não entra na coleção (até aqui).**
+**Resultado: não entra na coleção ().**
 
 ### Imagem 05 — Free-Shinobi-Sprites-Pixel-Art3(soco)
 - **Tentativa 1** (Free-Shinobi-Sprites-Pixel-Art3(soco).jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5 | Fica sim.
@@ -101,7 +99,7 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 - **Tentativa 3 (descartada)** (Gemini_Generated_Image_kgukkckgukkckguk.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: personagem um pouco de lado, na original é completamente de frente
 - **Tentativa 4 (descartada)** (Gemini_Generated_Image_lbzn2jlbzn2jlbzn.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: personagem um pouco de lado em alguns frames, na original é completamente de frente
 - **Tentativa 5 (descartada)** (Gemini_Generated_Image_wu3wajwu3wajwu3w.jpg): Tipo spritesheet | A sim B sim C não D sim | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: sombra que cobre metade do personagem não é escura o suficiente e cobre o personagem inteiro nas duas ultimas
-**Resultado: não entra na coleção (até aqui).**
+**Resultado: não entra na coleção ().**
 
 ### Imagem 07 — GBA sprite  Fire Emble
 - **Tentativa 1** (LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 N/A 6 não | Placar 2 | Fica não. Obs: Imagem com bem menos detalhes e cores alem de ter um contorno com uma cor bem diferente da original que é todo preto
@@ -118,16 +116,16 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 ### Imagem 09 — ryu-bigsuper
 - **Tentativa 1 (descartada)** (Gemini_Generated_Image_n5jiy0n5jiy0n5ji.jpg): Tipo spritesheet | A sim B sim C não D sim | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: perdeu bastante qualidade de imagem, todos os frames ficaram embaçados
-**Resultado: não entra na coleção (até aqui).**
+**Resultado: não entra na coleção ().**
 
 ### Imagem 10 — ryu-ts-stance
 - **Tentativa 1 (descartada)** (Gemini_Generated_Image_5go36b5go36b5go3.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: animação bastante detalhada com movimentos sutis que não acabaram sendo reproduzidos de forma correta, personagem acaba fazendo movimentos diferentes que a original não faz
-**Resultado: não entra na coleção (até aqui).**
+**Resultado: não entra na coleção ().**
 
 ### Imagem 11 — Sora(KHCoM)(sem fundo)
 - **Tentativa 1 (descartada)** (Sora(KHCoM)(1).jpg): Tipo spritesheet | A sim B sim C não D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: direção errada, movimentos errados e ângulo completamente diferente alem de deformidades em alguns frames, alem de também ter mais frames que a original
 - **Tentativa 2 (descartada)** (Sora(KHCoM)(2).jpg): Tipo spritesheet | A sim B sim C não D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: direção errada, movimentos errados e ângulo completamente diferente, alem de também ter mais frames que a original
-**Resultado: não entra na coleção (até aqui).**
+**Resultado: não entra na coleção ().**
 
 ### Imagem 12 — Sora(KHCoM)(sem fundo)(frame)
 - **Tentativa 1** (Sora(KHCoM)(sem fundo)(gif).jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
@@ -135,8 +133,8 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 ## 5. Observações sobre descartes (se houver tipos diferentes)
 
-| | [PREENCHER] | [PREENCHER] |
-|---|---|---|
-| Motivo do descarte | [PREENCHER] | [PREENCHER] |
-| Tentativas esgotadas? | [PREENCHER] | [PREENCHER] |
-| Tipo de limitação | [PREENCHER] | [PREENCHER] |
+| | Falha de pose (D) | Falha de estrutura (C) | Falha de estilo/detalhe (2/3/4/6) |
+|---|---|---|---|
+| Onde apareceu | 01 (t1–t5, perna cruzada), 04 (t1–t4, chute com perna errada), 10-t1 (movimentos diferentes); parciais em 02 (t1,t2), 03 (t1,t2,t4,t5), 05-t2, 06 (t3,t4) e 11 (t1,t2) | 06 (t1,t2,t5, sombra/posição), 09-t1 (qualidade/embaçado conta aqui e no estilo), 11 (t1,t2, direção e nº de frames) | 02-t4, 07-t1, 08 (t1,t2,t4), 09-t1 (todos com nível de detalhe/cores/contorno abaixo ou acima da referência) |
+| Tentativas esgotadas? | 01 (5/5). Geração encerrada, sem novas tentativas em nenhuma referência. | 06 (5 avaliadas). Idem. | — (quase todos em imagens que ficaram por outra tentativa, exceto a 09) |
+| Tipo de limitação | Do modelo em todos os casos (não segue pose, estrutura ou detalhe pedidos). | Do modelo. | Do modelo. |

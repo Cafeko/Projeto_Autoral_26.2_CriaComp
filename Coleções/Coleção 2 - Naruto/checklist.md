@@ -13,10 +13,10 @@
 - Resposta: As imagens não foram editadas.
 
 **C.** A proporção e a estrutura geral da imagem são parecidas com as da referência?
-- Resposta:
+- Resposta: Parcialmente — não em 5 (t1–t3), 7-t1 e 8 (t1,t2); ver relatório.
 
 **D.** A pose corresponde à da referência? (sprite único: a pose; spritesheet: cada pose, uma a uma, na posição correspondente)
-- Resposta:
+- Resposta: Parcialmente — não em 5 (t1–t3), 7-t1 e 8 (t1,t2); ver relatório.
 
 ---
 

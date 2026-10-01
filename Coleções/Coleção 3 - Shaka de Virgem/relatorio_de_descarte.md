@@ -1,8 +1,6 @@
-# Relatório de Avaliação da Coleção 3 — Sprites (Shaka de Virgem) — PREENCHER
+# Relatório de Avaliação da Coleção 3 — Sprites (Shaka de Virgem)
 
 **Projeto Autoral · Criatividade Computacional 2026.2 · Bloco 2**
-
-> Modelo vazio, mesma estrutura das Coleções 1 e 2. Preencher depois da avaliação visual. Não apagar as perguntas, só completar os campos marcados com [PREENCHER].
 
 ## 1. Por que este relatório existe
 
