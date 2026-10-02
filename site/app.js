@@ -91,15 +91,13 @@ async function init() {
   render();
 }
 
-function gifItems(list) {
+function gifItems(list, n) {
   list = list || [];
   const real = list.filter((g) => g.gif);
-  if (!real.length) return `<span class="pend">GIF pendente</span>`;
+  if (!real.length) return `<span class="pend">GIF pendente — solte o gif na mesma pasta da tentativa</span>`;
   return real.map((g) => {
-    const mod = g.gif_modificada ? `<span class="flag">sheet ajustada p/ animar</span>` : "";
-    const nota = g.gif_nota ? `<span class="cap">${esc(g.gif_nota)}</span>` : "";
     const name = `<span class="cap">${esc(g.nome || String(g.gif).split("/").pop())}</span>`;
-    return `<div class="pic"><a href="${U(g.gif)}" target="_blank" title="abrir em tamanho real"><img loading="lazy" src="${U(g.gif)}"></a>${name}${mod}${nota}</div>`;
+    return `<div class="pic"><a href="${U(g.gif)}" target="_blank" title="abrir em tamanho real"><img loading="lazy" src="${U(g.gif)}"></a>${name}</div>`;
   }).join("");
 }
 
