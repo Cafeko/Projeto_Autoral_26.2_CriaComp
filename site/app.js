@@ -86,6 +86,10 @@ async function init() {
     if (p) {
       card.querySelectorAll("[data-t]").forEach((x) => x.classList.toggle("on", x === p));
       card.querySelectorAll("[data-tpanel]").forEach((x) => { x.hidden = x.dataset.tpanel !== p.dataset.t; });
+      // ao trocar de tentativa, recarrega as animações do zero (clone = decode novo)
+      card.querySelectorAll(".view-gifs img").forEach((im) => {
+        im.replaceWith(im.cloneNode(true));
+      });
     }
   });
   render();
