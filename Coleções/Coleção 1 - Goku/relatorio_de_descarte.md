@@ -53,82 +53,82 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 | 11 | Sora(KHCoM)(sem fundo) | 2 | ❌ Nenhuma aprovada |
 | 12 | Sora(KHCoM)(sem fundo)(frame) | 1 | ✅ Fica (tentativa 1) |
 
-**Coleção final (): 6 imagens (02, 03, 05, 07, 08, 12).**
+**Coleção final: 6 imagens (02, 03, 05, 07, 08, 12).**
 
 ## 4. Detalhamento de cada imagem
 
 ### Imagem 01 — Alucard(SoTN)
-- **Tentativa 1 (descartada)** (Alucard(SoTN)(1).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-- **Tentativa 2 (descartada)** (Alucard(SoTN)(2).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica Não. Motivo: não está com a perna cruzada igual ao original
-- **Tentativa 3 (descartada)** (Gemini_Generated_Image_yh6b6fyh6b6fyh6b.jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-- **Tentativa 4 (descartada)** (tentativa 4 - Alucard(SoTN).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-- **Tentativa 5 (descartada)** (tentativa 5 - Alucard(SoTN).jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: não está com a perna cruzada igual ao original
-**Resultado: não entra na coleção ().**
+- **Tentativa 1 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 n/a 6 não | Placar 3/5 | Fica não. Motivo: Não está com a perna cruzada igual ao original, é bem mais detalhada e tem um contorno que a imagem original não tem.
+- **Tentativa 2 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 n/a 6 sim | Placar 5/5 | Fica não. Motivo: Não está com a perna cruzada igual ao original, se a pose fosse igual teria passado.
+- **Tentativa 3 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 n/a 6 não | Placar 3/5 | Fica não. Motivo: Não está com a perna cruzada igual ao original, tem um contorno muito forte que não tem no original, detalhes no braço usam pixels muito pequenos que não tem no original.
+- **Tentativa 4 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Não está com a perna cruzada igual ao original, numero de cores e detalhes bastante diferentes do original e tem um contorno que não deveria ter.
+- **Tentativa 5 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 n/a 6 não | Placar 3/5 | Fica não. Motivo: Não está com a perna cruzada igual ao original, tem contornos em algumas partes e muito mais detalhes que o original.
+**Resultado: não entra na coleção.**
 
 ### Imagem 02 — Chrono(CT)
-- **Tentativa 1** (Gemini_Generated_Image_fenhkrfenhkrfenh.jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: não está com a perna cruzada igual ao original
-- **Tentativa 2** (Gemini_Generated_Image_hq6vy3hq6vy3hq6v.jpg): Tipo único | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: não está fazendo a pose, tá apenas em pé
-- **Tentativa 3** (Gemini_Generated_Image_morc9dmorc9dmorc.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
-- **Tentativa 4** (Gemini_Generated_Image_pvsuz2pvsuz2pvsu.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 N/A 6 não | Placar 2 | Fica não. Obs: Parece bem menos detalhada em relação a original, plana, com poucas cores e até a sombra é só uma sombra plana preta enquanto na original ela tem uns detalhes mais claros nas pontas
-- **Tentativa 5** (Gemini_Generated_Image_um17loum17loum17.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 N/A 6 sim | Placar 4 | Fica sim.
+- **Tentativa 1 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 n/a 6 sim | Placar 4/5 | Fica não. Motivo: Não está na mesma pose, está olhando para o outro lado., não tem sombra em baixo.
+- **Tentativa 2 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Não está fazendo a pose está apenas em pé, não tem a sombra em baixo e nem o mesmo nivel de detalhe utilizando diversas cores diferentes
+- **Tentativa 3 (aprovada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 n/a 6 sim | Placar 5/5 | Fica sim.
+- **Tentativa 4 (descartada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Bem menos detalhada que a original, plana e com poucas cores; até a sombra é só um borrão preto, enquanto na original ela tem detalhes mais claros nas pontas.
+- **Tentativa 5 (aprovada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 n/a 6 sim | Placar 4/5 | Fica sim.
 **Resultado: fica na coleção, com a tentativa 3.**
 
 ### Imagem 03 — Chrono(CT)(Walk)
-- **Tentativa 1** (Gemini_Generated_Image_309k4n309k4n309k.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: um dos frames está com o personagem andando para a direção errada
-- **Tentativa 2** (Gemini_Generated_Image_bkozhtbkozhtbkoz.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: um dos frames está com o personagem andando para a direção errada
-- **Tentativa 3** (Gemini_Generated_Image_ojvptbojvptbojvp.jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
-- **Tentativa 4** (Gemini_Generated_Image_pjw3ckpjw3ckpjw3.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: um dos frames está com o personagem andando para a direção errada
-- **Tentativa 5** (Gemini_Generated_Image_q8zeo7q8zeo7q8ze.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: mais de um frames está com o personagem andando para a direção errada
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 sim 6 não | Placar 5/6 | Fica não. Motivo: Um dos frames está com o personagem andando para a direção errada.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 sim 6 não | Placar 5/6 | Fica não. Motivo: Dois dos frames estão com o personagem andando para a direção errada e cabelo está inconsistente entre os frames.
+- **Tentativa 3 (aprovada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 n/a 6 sim | Placar 5/6 | Fica sim.
+- **Tentativa 4 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 sim 6 não | Placar 5/6 | Fica não. Motivo: Um dos frames está com o personagem andando para a direção errada.
+- **Tentativa 5 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 sim 6 não | Placar 5/6 | Fica não. Motivo: 3 frames estão com o personagem andando para a direção errada.
 **Resultado: fica na coleção, com a tentativa 3.**
 
 ### Imagem 04 — Free-Shinobi-Sprites-Pixel-Art3(chute)
-- **Tentativa 1 (descartada)** (Free-Shinobi-Sprites-Pixel-Art3(chute)(1).jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
-- **Tentativa 2 (descartada)** (Free-Shinobi-Sprites-Pixel-Art3(chute)(2).jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
-- **Tentativa 3 (descartada)** (Free-Shinobi-Sprites-Pixel-Art3(chute)(3).jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
-- **Tentativa 4 (descartada)** (Gemini_Generated_Image_wn9wwown9wwown9w.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: Chute com a perna errada
-**Resultado: não entra na coleção ().**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Chute com a perna errada, iluminação diferente e muitos detalhes.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5/6 | Fica não. Motivo: Chute com a perna errada e iluminação diferente.
+- **Tentativa 3 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Chute com a perna errada, iluminação diferente e muitos detalhes.
+- **Tentativa 4 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5/6 | Fica não. Motivo: Chute com a perna errada e iluminação diferente.
+**Resultado: não entra na coleção.**
 
 ### Imagem 05 — Free-Shinobi-Sprites-Pixel-Art3(soco)
-- **Tentativa 1** (Free-Shinobi-Sprites-Pixel-Art3(soco).jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5 | Fica sim.
-- **Tentativa 2** (Gemini_Generated_Image_dznzrsdznzrsdznz.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Obs: braço errado no primeiro frame
+- **Tentativa 1 (aprovada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5/6 | Fica sim.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5/6 | Fica não. Motivo: Braço errado no primeiro frame e sombras e iluminação estão diferentes.
 **Resultado: fica na coleção, com a tentativa 1.**
 
 ### Imagem 06 — Frisk(Undertale)
-- **Tentativa 1 (descartada)** (Gemini_Generated_Image_4eqsq14eqsq14eqs.jpg): Tipo spritesheet | A sim B sim C não D sim | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: sombra que cobre metade do personagem não é escura o suficiente e cobre o personagem inteiro nas duas ultimas
-- **Tentativa 2 (descartada)** (Gemini_Generated_Image_j37ztdj37ztdj37z.jpg): Tipo spritesheet | A sim B sim C não D sim | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: imagem distorcida entre dois frames
-- **Tentativa 3 (descartada)** (Gemini_Generated_Image_kgukkckgukkckguk.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: personagem um pouco de lado, na original é completamente de frente
-- **Tentativa 4 (descartada)** (Gemini_Generated_Image_lbzn2jlbzn2jlbzn.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: personagem um pouco de lado em alguns frames, na original é completamente de frente
-- **Tentativa 5 (descartada)** (Gemini_Generated_Image_wu3wajwu3wajwu3w.jpg): Tipo spritesheet | A sim B sim C não D sim | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: sombra que cobre metade do personagem não é escura o suficiente e cobre o personagem inteiro nas duas ultimas
-**Resultado: não entra na coleção ().**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C não D sim | 1 sim 2 sim 3 não 4 não 5 sim 6 não | Placar 3/6 | Fica não. Motivo: Proporções bem diferentes do original, a sombra que cobre metade do personagem não é escura o suficiente e cobre o personagem inteiro nas duas últimas, também é bem mais detalhada que a original.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C não D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Proporções bem diferentes do original, imagem distorcida entre dois frames e tem contorno que não deveria ter, muitos detalhe.
+- **Tentativa 3 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 não 4 não 5 sim 6 não | Placar 3/6 | Fica não. Motivo: Personagem um pouco de lado, na original está completamente de frente, também é bem mais detalhada que a original.
+- **Tentativa 4 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 não 2 sim 3 sim 4 não 5 sim 6 sim | Placar 4/6 | Fica não. Motivo: Personagem um pouco de lado em alguns frames, na original está completamente de frente e não  tem o cabelo espetado que foi pedido.
+- **Tentativa 5 (descartada)**: Tipo spritesheet | A sim B sim C não D sim | 1 sim 2 sim 3 não 4 não 5 sim 6 não | Placar 3/6 | Fica não. Motivo: Proporções bem diferentes do original, a sombra que cobre metade do personagem não é escura o suficiente, cobre o personagem inteiro nas duas últimas, também é bem mais detalhada que a original.
+**Resultado: não entra na coleção.**
 
 ### Imagem 07 — GBA sprite  Fire Emble
-- **Tentativa 1** (LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 N/A 6 não | Placar 2 | Fica não. Obs: Imagem com bem menos detalhes e cores alem de ter um contorno com uma cor bem diferente da original que é todo preto
-- **Tentativa 2** (tentativa 2 - LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
-- **Tentativa 3** (tentativa 3 - LF GBA sprite artist - Requests - Fire Emble.jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 não | Placar 4 | Fica sim.
+- **Tentativa 1 (descartada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Imagem com bem menos detalhes e cores, além de ter um contorno de cor bem diferente, o da original é todo preto.
+- **Tentativa 2 (aprovada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 n/a 6 sim | Placar 5/5 | Fica sim.
+- **Tentativa 3 (aprovada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 n/a 6 não | Placar 4/5 | Fica sim.
 **Resultado: fica na coleção, com a tentativa 2.**
 
 ### Imagem 08 — Luigiwalk
-- **Tentativa 1** (Luigiwalk(1).jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 sim 6 não | Placar 3 | Fica não. Obs: muito mais detalhada que a original, com bem mais cores e sombras quen a original não tem ficando com mum estilo completamente diferente da referencia
-- **Tentativa 2** (Luigiwalk(2).jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 não 2 sim 3 não 4 não 5 sim 6 não | Placar 2 | Fica não. Obs: cor da roupa diferente do que foi descrito, muito mais detalhada que a original, com bem mais cores e sombras quen a original não tem ficando com mum estilo completamente diferente da referencia
-- **Tentativa 3** (Luigiwalk(3).jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 sim | Placar 5 | Fica sim.
-- **Tentativa 4** (Luigiwalk(4).jpg): Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 não | Placar 4 | Fica não. Obs: contorno inconsistente ficando grosso e fino (original tem uma só espesura) e nivel de detalhe maior que a original
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 não 5 sim 6 não | Placar 3/6 | Fica não. Motivo: Muito mais detalhada que a original, com bem mais cores e sombras que a original não tem, ficando com um estilo completamente diferente da referência.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 não 2 sim 3 não 4 não 5 sim 6 não | Placar 2/6 | Fica não. Motivo: Cor da roupa diferente da descrita e muito mais detalhada que a original, com bem mais cores e sombras que a original não tem, ficando com um estilo completamente diferente da referência.
+- **Tentativa 3 (aprovada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 sim 6 não | Placar 5/6 | Fica sim.
+- **Tentativa 4 (descartada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Contorno inconsistente, ficando grosso e fino (a original tem uma só espessura), e nível de detalhe maior que a original.
 **Resultado: fica na coleção, com a tentativa 3.**
 
 ### Imagem 09 — ryu-bigsuper
-- **Tentativa 1 (descartada)** (Gemini_Generated_Image_n5jiy0n5jiy0n5ji.jpg): Tipo spritesheet | A sim B sim C não D sim | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: perdeu bastante qualidade de imagem, todos os frames ficaram embaçados
-**Resultado: não entra na coleção ().**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C não D sim | 1 sim 2 não 3 sim 4 não 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Perdeu bastante qualidade de imagem, todos os frames ficaram embaçados.
+**Resultado: não entra na coleção.**
 
 ### Imagem 10 — ryu-ts-stance
-- **Tentativa 1 (descartada)** (Gemini_Generated_Image_5go36b5go36b5go3.jpg): Tipo spritesheet | A sim B sim C sim D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: animação bastante detalhada com movimentos sutis que não acabaram sendo reproduzidos de forma correta, personagem acaba fazendo movimentos diferentes que a original não faz
-**Resultado: não entra na coleção ().**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 não 6 sim | Placar 4/6 | Fica não. Motivo: Animação detalhada com movimentos sutis que não foram reproduzidos de forma correta: o personagem faz movimentos diferentes dos da original.
+**Resultado: não entra na coleção.**
 
 ### Imagem 11 — Sora(KHCoM)(sem fundo)
-- **Tentativa 1 (descartada)** (Sora(KHCoM)(1).jpg): Tipo spritesheet | A sim B sim C não D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: direção errada, movimentos errados e ângulo completamente diferente alem de deformidades em alguns frames, alem de também ter mais frames que a original
-- **Tentativa 2 (descartada)** (Sora(KHCoM)(2).jpg): Tipo spritesheet | A sim B sim C não D não | 1 N/A 2 N/A 3 N/A 4 N/A 5 N/A 6 N/A | Placar N/A | Fica não. Motivo: direção errada, movimentos errados e ângulo completamente diferente, alem de também ter mais frames que a original
-**Resultado: não entra na coleção ().**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C não D não | 1 sim 2 sim 3 não 4 não 5 não 6 não | Placar 2/6 | Fica não. Motivo: Direção errada, movimentos errados e ângulo completamente diferente, não deveria ter contorno, além de deformidades em alguns frames e mais frames que a original.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C não D não | 1 sim 2 sim 3 não 4 não 5 não 6 não | Placar 2/6 | Fica não. Motivo: Direção errada, movimentos errados e ângulo completamente diferente, não deveria ter contorno, além de também ter mais frames que a original.
+**Resultado: não entra na coleção.**
 
 ### Imagem 12 — Sora(KHCoM)(sem fundo)(frame)
-- **Tentativa 1** (Sora(KHCoM)(sem fundo)(gif).jpg): Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 N/A 6 sim | Placar 5 | Fica sim.
+- **Tentativa 1 (aprovada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 n/a 6 sim | Placar 5/5 | Fica sim.
 **Resultado: fica na coleção, com a tentativa 1.**
 
 ## 5. Observações sobre descartes (se houver tipos diferentes)

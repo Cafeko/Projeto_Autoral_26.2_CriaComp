@@ -142,11 +142,17 @@ def main():
         aval = load_avaliacao(cdir / col["xlsx"])
         cdata = {k: col[k] for k in ("id", "nome", "personagem", "limite", "status")}
         cdata["imagens"] = []
+        all_folders = []
         for grupo in ["Finais", "Descartados"]:
             gdir = cdir / grupo
             if not gdir.is_dir():
                 continue
-            for folder in sorted(gdir.iterdir()):
+            for d in gdir.iterdir():
+                if d.is_dir():
+                    all_folders.append((grupo, d))
+        all_folders.sort(key=lambda t: int(re.match(r"imagem (\d+)", t[1].name).group(1))
+                         if re.match(r"imagem (\d+)", t[1].name) else 999)
+        for grupo, folder in all_folders:
                 if not folder.is_dir():
                     continue
                 m = re.match(r"imagem (\d+) - (.*)", folder.name)

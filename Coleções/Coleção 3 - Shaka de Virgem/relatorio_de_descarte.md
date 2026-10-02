@@ -38,30 +38,27 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 ## 3. Resultado resumido
 
-| Imagem | Referência | Tentativas | Resultado |
+| Imagem | Referência | Tentativas avaliadas | Resultado |
 |---|---|---|---|
-| 1 | Naruto(atk1) | 1 | ❌ Descartada |
-| 2 | Naruto(Idle) | 1 | ❌ Descartada |
-| 3 | Naruto(walk) | 1 | ✅ Fica (tentativa 1) |
+| 01 | Naruto(atk1) | 1 | ❌ Nenhuma aprovada |
+| 02 | Naruto(Idle) | 1 | ❌ Nenhuma aprovada |
+| 03 | Naruto(walk) | 1 | ✅ Fica (tentativa 1) |
 
 **Coleção final: 1 imagem (03).**
 
 ## 4. Detalhamento de cada imagem
 
 ### Imagem 01 — Naruto(atk1)
-- **Tentativa 1 (descartada)** (tentativa 1 - Shaka(Naruto)(atk1).png): Tipo spritesheet | A sim, B sim, C sim, D não | 1-6 N/A (não avaliado — já descartada em D).
-- **Pontuação:** — (descartada na obrigatória D)
-- **Resultado:** não entra na coleção. Motivo: não segue a mesma pose da original — muda o braço no último frame.
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 não 4 sim 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Muda o braço no último frame e é bem mais simples visualmente.
+**Resultado: não entra na coleção.**
 
 ### Imagem 02 — Naruto(Idle)
-- **Tentativa 1 (descartada)** (tentativa 1 - Shaka(Naruto)(Idle).png): Tipo spritesheet | A sim, B sim, C não, D não | Q5 não (um frame a menos); 1-4 e 6 N/A.
-- **Pontuação:** — (descartada nas obrigatórias C/D)
-- **Resultado:** não entra na coleção. Motivo: tem um frame a menos do que deveria.
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C não D não | 1 sim 2 sim 3 não 4 sim 5 não 6 sim | Placar 4/6 | Fica não. Motivo: Um frame a menos que a referência.
+**Resultado: não entra na coleção.**
 
 ### Imagem 03 — Naruto(walk)
-- **Tentativa 1** (tentativa 1 - Shaka(Naruto)(Walk)(1).jpg): Tipo spritesheet | A sim, B sim, C sim, D sim | 1 sim, 2 sim, 3 sim, 4 sim, 5 sim, 6 sim.
-- **Pontuação:** 6/6
-- **Resultado:** fica na coleção, com a tentativa 1.
+- **Tentativa 1 (aprovada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 não 4 sim 5 sim 6 sim | Placar 5/6 | Fica sim.
+**Resultado: fica na coleção, com a tentativa 1.**
 
 ## 5. Observações sobre descartes (se houver tipos diferentes)
 

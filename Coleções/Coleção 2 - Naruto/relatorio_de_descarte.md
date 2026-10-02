@@ -38,60 +38,57 @@ Toda imagem passou pelas mesmas perguntas, na mesma ordem, divididas em dois gru
 
 ## 3. Resultado resumido
 
-| Imagem | Referência | Tentativas | Resultado |
+| Imagem | Referência | Tentativas avaliadas | Resultado |
 |---|---|---|---|
-| 1 | Personagem de casaco azul | 1 | ✅ Fica |
-| 2 | Ninjas com espada | 1 | ✅ Fica |
-| 3 | Ninja vermelho | 2 | ✅ Fica (2ª tentativa) |
-| 4 | Personagem de terno correndo | 1 | ✅ Fica |
-| 5 | Guerreiro armado | 3 | ❌ Descartada |
-| 6 | Estilo Chrono Trigger | 1 | ✅ Fica |
-| 7 | Luigi | 2 | ✅ Fica (2ª tentativa) |
-| 8 | Estilo Kingdom Hearts | 2 (3ª não gerou) | ❌ Descartada |
+| 1 | Personagem de casaco azul | 1 | ✅ Fica (tentativa 1) |
+| 2 | Ninjas com espada | 1 | ❌ Nenhuma aprovada |
+| 3 | Ninja vermelho | 2 | ❌ Nenhuma aprovada |
+| 4 | Personagem de terno correndo | 1 | ✅ Fica (tentativa 1) |
+| 5 | Guerreiro armado | 3 | ❌ Nenhuma aprovada |
+| 6 | Estilo Chrono Trigger | 1 | ❌ Nenhuma aprovada |
+| 7 | Luigi | 2 | ✅ Fica (tentativa 1) |
+| 8 | Estilo Kingdom Hearts | 2 | ❌ Nenhuma aprovada |
 
-**Coleção final: 6 imagens (1, 2, 3, 4, 6 e 7).**
+**Coleção final: 3 imagens (1, 4, 7).**
 
 ## 4. Detalhamento de cada imagem
 
 ### Imagem 1 — Personagem de casaco azul
-Uma tentativa, sem edição, estrutura compatível com a referência. Pontuação: 6/6.
-**Resultado: fica na coleção.**
+- **Tentativa 1 (aprovada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 não 3 sim 4 sim 5 sim 6 sim | Placar 5/6 | Fica sim.
+**Resultado: fica na coleção, com a tentativa 1.**
 
 ### Imagem 2 — Ninjas com espada
-Uma tentativa, sem edição, estrutura compatível. Pontuação: 5/6 — falhou apenas na pergunta 2 (bordas de pixel real).
-**Resultado: fica na coleção.**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 não 3 sim 4 sim 5 sim 6 não | Placar 4/6 | Fica não. Motivo: Tem poses que era para estar de costas, mas não está, detalhes não correspondem ao original.
+**Resultado: não entra na coleção.**
 
 ### Imagem 3 — Ninja vermelho
-- **Tentativa 1 (descartada):** faltaram bordas de pixel real e havia sombreamento em degradê.
-- **Tentativa 2:** mesmo prompt, sem alterações. Corrigiu os dois problemas, manteve a estrutura de 24 poses compatível com a referência. Pontuação: 6/6.
-**Resultado: fica na coleção, com a tentativa 2.**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 não 3 não 4 não 5 sim 6 sim | Placar 3/6 | Fica não. Motivo: Traço suavizado, sem bordas de pixel, e sombreamento diferente do original.
+- **Tentativa 2 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 sim 6 sim | Placar 6/6 | Fica não. Motivo: Não está de costas na pose que devia.
+**Resultado: não entra na coleção.**
 
 ### Imagem 4 — Personagem de terno correndo
-Uma tentativa, sem edição, estrutura compatível. Pontuação: 6/6.
-**Resultado: fica na coleção.**
+- **Tentativa 1 (aprovada)**: Tipo spritesheet | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 sim 5 sim 6 sim | Placar 6/6 | Fica sim.
+**Resultado: fica na coleção, com a tentativa 1.**
 
 ### Imagem 5 — Guerreiro armado
-- **Tentativa 1 (descartada):** pose mudou de combate para uma posição estática de frente — falhou as obrigatórias C e D.
-- **Tentativa 2 (descartada):** mesma falha de estrutura/pose (C/D), e ainda apareceu uma mochila que não estava na descrição do personagem nem na referência, além de sombreamento em degradê no rosto e na mochila.
-- **Tentativa 3 (descartada):** removeu a mochila e reduziu o sombreamento, mas manteve a mesma falha de estrutura/pose (C/D) — a pose continuou estática, sem corresponder à pose de combate da referência.
-
-Limite de 3 tentativas esgotado sem sucesso.
+- **Tentativa 1 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Pose errada, não está com a perna cruzada e tem bem menos detalhes que a original.
+- **Tentativa 2 (descartada)**: Tipo único | A sim B sim C não D não | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Pose errada, não está com a perna cruzada e é muito mais detalha que a original e tem uma mochila que não está nem na original nem na descrição do personagem.
+- **Tentativa 3 (descartada)**: Tipo único | A sim B sim C não D não | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Pose errada, não está com a perna cruzada e é muito mais detalha que a original e proporções diferentes da original.
 **Resultado: não entra na coleção.**
 
 ### Imagem 6 — Estilo Chrono Trigger
-Uma tentativa, sem edição, estrutura e poses compatíveis com a referência. Pontuação: 6/6.
-**Resultado: fica na coleção.**
+- **Tentativa 1 (descartada)**: Tipo spritesheet | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 sim 5 sim 6 sim | Placar 6/6 | Fica não. Motivo: Um frame está andando para a direção errada.
+**Resultado: não entra na coleção.**
 
 ### Imagem 7 — Luigi
-- **Tentativa 1 (descartada):** pose de três quartos, com o braço estendido à frente, diferente da postura reta e lateral da referência — falhou as obrigatórias C e D.
-- **Tentativa 2:** mesmo prompt, sem alterações. Corrigiu a pose (D sim), manteve a orientação da referência. Pontuação: 5/5 (critério de sprite único: 1, 2, 3, 4 e 6-detalhe).
-**Resultado: fica na coleção, com a tentativa 2.**
+- **Tentativa 1 (aprovada)**: Tipo único | A sim B sim C sim D sim | 1 sim 2 sim 3 sim 4 não 5 n/a 6 sim | Placar 4/5 | Fica sim.
+- **Tentativa 2 (descartada)**: Tipo único | A sim B sim C não D não | 1 sim 2 sim 3 sim 4 não 5 n/a 6 não | Placar 3/5 | Fica não. Motivo: Pose e proporções diferentes da original, contorno inconsistente e muito mais detalhes do que deveria.
+**Resultado: fica na coleção, com a tentativa 1.**
 
 ### Imagem 8 — Estilo Kingdom Hearts
-- **Tentativa 1 (descartada):** falhou nas obrigatórias de estrutura/pose (C/D) e na maior parte da pontuação (cores em excesso, degradê, sem bordas de pixel real).
-- **Tentativa 2 (descartada):** piorou o problema de estrutura/pose (C/D) — em vez de manter uma pose única como a referência, gerou quatro poses diferentes de corrida, com nível de detalhe inconsistente entre elas.
-- **Tentativa 3:** não foi possível gerar — falha técnica da ferramenta, não decisão do grupo.
-
+- **Tentativa 1 (descartada)**: Tipo único | A sim B sim C sim D não | 1 sim 2 sim 3 sim 4 não 5 n/a 6 não | Placar 3/5 | Fica não. Motivo: Pose diferente da referência, perna errada para frente, bem menos detalhada e com contorno todo preto.
+- **Tentativa 2 (descartada)**: Tipo único | A sim B sim C não D não | 1 sim 2 sim 3 não 4 não 5 n/a 6 não | Placar 2/5 | Fica não. Motivo: Gerou quatro poses de corrida em vez de manter a pose única da referência e o estilo é bem mais simples.
+- **Tentativa 3:** não pôde ser gerada — falha técnica da ferramenta, não decisão do grupo.
 **Resultado: não entra na coleção.**
 
 ## 5. Por que 5 e 8 são descartes diferentes

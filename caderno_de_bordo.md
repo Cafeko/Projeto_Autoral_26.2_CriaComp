@@ -133,18 +133,20 @@ Cada tentativa foi feita em um chat novo e separado, sempre reenviando o mesmo p
 
 ### Coleção 2 — Naruto
 
+### Coleção 2 — Naruto (reavaliada; limite 3)
+
 | Referência | Tentativas | Resultado final |
 |---|---|---|
-| 1. Casaco azul | 1 | Aprovada — permanece na coleção |
-| 2. Ninjas com espada | 1 | Aprovada — permanece na coleção |
-| 3. Ninja vermelho | 2 | Aprovada na 2ª tentativa |
-| 4. Terno correndo | 1 | Aprovada — permanece na coleção |
-| 5. Guerreiro armado | 3 (limite esgotado) | Não aprovada — falha estrutural persistente |
-| 6. Chrono Trigger | 1 | Aprovada — permanece na coleção |
-| 7. Luigi | 2 | Aprovada na 2ª tentativa |
-| 8. Kingdom Hearts | 2 (3ª tentativa falhou por erro técnico) | Não aprovada — falha estrutural |
+| 1. Casaco azul | 1 | Aprovada — permanece na coleção (5/6) |
+| 2. Ninjas com espada | 1 | Não aprovada — poses que deviam estar de costas não estão |
+| 3. Ninja vermelho | 2 | Não aprovada — t1 sem bordas de pixel; t2 fora da pose de costas |
+| 4. Terno correndo | 1 | Aprovada — permanece na coleção (6/6) |
+| 5. Guerreiro armado | 3 (limite esgotado) | Não aprovada — pose errada nas 3 tentativas |
+| 6. Chrono Trigger | 1 | Não aprovada — um frame andando para a direção errada |
+| 7. Luigi | 2 | Aprovada na 1ª tentativa (4/5); t2 descartada (pose e proporções) |
+| 8. Kingdom Hearts | 2 (3ª tentativa falhou por erro técnico) | Não aprovada |
 
-**Coleção final: 6 imagens (referências 1, 2, 3, 4, 6 e 7).**
+**Coleção final: 3 imagens (referências 1, 4 e 7).**
 
 ### Coleção 3 — Shaka de Virgem (3 referências; limite 5)
 
@@ -156,13 +158,16 @@ Cada tentativa foi feita em um chat novo e separado, sempre reenviando o mesmo p
 
 ## 4. Descarte comentado (motivo de cada tentativa não aproveitada)
 
-- **Referência 3, tentativa 1:** descartada por ausência de bordas de pixel real (traço suavizado) e presença de sombreamento em degradê.
-- **Referência 5, tentativa 1:** descartada por falha estrutural — pose mudou de combate para posição estática de frente.
-- **Referência 5, tentativa 2:** descartada pela mesma falha estrutural, agravada por um item extra (mochila) não presente na descrição do personagem nem na referência, e por sombreamento em degradê no rosto e na mochila.
-- **Referência 5, tentativa 3:** descartada por manter a mesma falha estrutural (pose estática, sem corresponder à pose de combate da referência), mesmo após remover a mochila e reduzir o sombreamento. Limite de 3 tentativas esgotado.
-- **Referência 7, tentativa 1:** descartada por pose de três quartos com braço estendido, divergindo da postura reta e lateral da referência.
-- **Referência 8, tentativa 1:** descartada por falha estrutural e falhas de estilo (cores em excesso, degradê, ausência de bordas de pixel real).
-- **Referência 8, tentativa 2:** descartada por gerar quatro poses diferentes em vez de manter a referência como sprite único de uma pose, com inconsistência de detalhe entre elas.
+- **Referência 2, tentativa 1:** descartada — tem poses que deviam estar de costas, mas não estão, e detalhes não correspondem ao original.
+- **Referência 3, tentativa 1:** descartada por traço suavizado, sem bordas de pixel, e sombreamento diferente do original.
+- **Referência 3, tentativa 2:** descartada — não está de costas na pose que devia.
+- **Referência 5, tentativa 1:** descartada — pose errada, sem perna cruzada e com bem menos detalhes que a original.
+- **Referência 5, tentativa 2:** descartada — pose errada, muito mais detalhada que a original e com uma mochila que não está na referência.
+- **Referência 5, tentativa 3:** descartada — pose errada, muito mais detalhada e com proporções diferentes da original. Limite de 3 tentativas esgotado.
+- **Referência 6, tentativa 1:** descartada — um frame está andando para a direção errada.
+- **Referência 7, tentativa 2:** descartada — pose e proporções diferentes da original, contorno inconsistente e muito mais detalhes do que deveria. (A tentativa 1 ficou.)
+- **Referência 8, tentativa 1:** descartada — pose diferente da referência, perna errada para frente, bem menos detalhada e com contorno todo preto.
+- **Referência 8, tentativa 2:** descartada — gerou quatro poses de corrida em vez de manter a pose única da referência, e o estilo é bem mais simples.
 - **Referência 8, tentativa 3:** não pôde ser gerada — falha técnica da ferramenta, não decisão do processo.
 
 Os descartes das Coleções 1 e 3 estão comentados nos respectivos `relatorio_de_descarte.md` (C1: 01 Alucard, 04 chute, 06 Frisk, 09 ryu-bigsuper, 10 ryu-ts-stance e 11 Sora fora; C3: 01 atk1 por pose divergente no último frame, 02 Idle por um frame a menos).
