@@ -23,6 +23,13 @@ async function liveReload() {
   } catch (e) { /* file:// ou estático: ignora */ }
 }
 
+// recarrega do zero o ORIGINAL + a tentativa visível (clone = decode novo)
+function restartGifs(card) {
+  card.querySelectorAll('.view-gifs .cmp > .side:first-child img, .view-gifs [data-tpanel]:not([hidden]) img').forEach((im) => {
+    im.replaceWith(im.cloneNode(true));
+  });
+}
+
 async function init() {
   // upscale nítido: sprites minúsculos exibem ampliados (pixelated = sem borrar)
   document.addEventListener("load", (e) => {
@@ -46,6 +53,7 @@ async function init() {
   liveReload();
   DATA = window.SITE_DATA;
   document.getElementById("eixo").textContent = DATA.eixo;
+  document.getElementById("versao").textContent = DATA.versao || "?";
   const pills = document.getElementById("colPills");
   const mk = (id, label) => {
     const b = document.createElement("button");
@@ -80,16 +88,15 @@ async function init() {
       card.querySelectorAll("[data-view]").forEach((x) => x.classList.toggle("on", x === v));
       card.querySelector(".view-sheets").hidden = v.dataset.view !== "sheets";
       card.querySelector(".view-gifs").hidden = v.dataset.view !== "gifs";
+      if (v.dataset.view === "gifs") restartGifs(card);
       return;
     }
     const p = e.target.closest("[data-t]");
     if (p) {
       card.querySelectorAll("[data-t]").forEach((x) => x.classList.toggle("on", x === p));
       card.querySelectorAll("[data-tpanel]").forEach((x) => { x.hidden = x.dataset.tpanel !== p.dataset.t; });
-      // ao trocar de tentativa, recarrega as animações do zero (clone = decode novo)
-      card.querySelectorAll(".view-gifs img").forEach((im) => {
-        im.replaceWith(im.cloneNode(true));
-      });
+      // ao trocar de tentativa, o ORIGINAL reinicia + a tentativa exibida começa do zero
+      restartGifs(card);
     }
   });
   render();

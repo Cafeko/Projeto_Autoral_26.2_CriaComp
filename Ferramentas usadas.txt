@@ -1,3 +1,4 @@
 Site auto slice spritesheets: https://www.kokutech.com/tools/spriteslice
+Site auto slice spritesheets e fazer gifs: https://tools.spriters-resource.com/#welcome
 Fazer gif: Piskel
 Remover fundo: https://www.remove.bg/pt-br/upload

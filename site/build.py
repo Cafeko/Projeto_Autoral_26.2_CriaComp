@@ -7,7 +7,8 @@ tentativa 3 (ajustada).gif). Se a sheet foi mexida para animar, indique
 no próprio nome do arquivo.
 """
 from pathlib import Path
-import json, re, shutil, datetime
+import hashlib
+import json, re, shutil
 import openpyxl
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -125,8 +126,7 @@ def short_t(base_dir, n, k, ext, kind):
 def main():
     if ASSETS.exists():
         shutil.rmtree(ASSETS)
-    data = {"gerado_em": datetime.date.today().isoformat(),
-            "eixo": "", "colecoes": [], "testes": []}
+    data = {"eixo": "", "colecoes": [], "testes": []}
     eixo_txt = (ROOT / "Eixo.txt").read_text(encoding="utf-8")
     data["eixo"] = re.sub(r"^EIXO\s*", "", eixo_txt).strip()
     for col in COLECOES:
@@ -220,9 +220,26 @@ def main():
                 ti += 1
                 grupos.setdefault(g, []).append({"src": rel, "nome": p.name})
         data["testes"] = [{"grupo": g, "arquivos": a} for g, a in sorted(grupos.items())]
-    (SITE / "data.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+    payload = json.dumps(data, ensure_ascii=False)
+    # versão visível no rodapé + cache-busting (?v=): muda só quando algo real muda
+    h = hashlib.md5(b"".join([
+        (SITE / "app.js").read_bytes(),
+        (SITE / "styles.css").read_bytes(),
+        payload.encode("utf-8"),
+    ])).hexdigest()[:8]
+    data["versao"] = h
+    blob = json.dumps(data, ensure_ascii=False)
+    (SITE / "data.json").write_text(blob, encoding="utf-8")
     # data.js embute os dados para a página abrir até com duplo clique (file://)
-    (SITE / "data.js").write_text("window.SITE_DATA = " + json.dumps(data, ensure_ascii=False) + ";", encoding="utf-8")
+    (SITE / "data.js").write_text("window.SITE_DATA = " + blob + ";", encoding="utf-8")
+    # cache-busting: index.html referencia os assets com ?v=<hash do conteúdo>;
+    # muda só quando algo real muda, então o navegador nunca usa JS/dados velhos
+    idx = SITE / "index.html"
+    html = idx.read_text(encoding="utf-8")
+    html2 = re.sub(r'((?:src|href)=")(app\.js|styles\.css|data\.js)(\?v=\w+)?(")',
+                   rf"\1\2?v={h}\4", html)
+    if html2 != html:
+        idx.write_text(html2, encoding="utf-8")
     n_img = sum(len(i["tentativas"]) for c in data["colecoes"] for i in c["imagens"])
     n_gif = sum(1 for c in data["colecoes"] for i in c["imagens"] for t in i["tentativas"] for g in t["gifs"] if g["gif"])
     print(f"OK: {len(data['colecoes'])} coleções, {n_img} tentativas, {n_gif} GIFs, "
