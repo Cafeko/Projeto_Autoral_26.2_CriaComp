@@ -23,10 +23,13 @@ async function liveReload() {
   } catch (e) { /* file:// ou estático: ignora */ }
 }
 
-// recarrega do zero o ORIGINAL + a tentativa visível (clone = decode novo)
+// recarrega do zero o ORIGINAL + a tentativa visível (clone = decode novo);
+// o clarão rápido mostra que o reinício aconteceu de verdade
 function restartGifs(card) {
   card.querySelectorAll('.view-gifs .cmp > .side:first-child img, .view-gifs [data-tpanel]:not([hidden]) img').forEach((im) => {
-    im.replaceWith(im.cloneNode(true));
+    const c = im.cloneNode(true);
+    im.replaceWith(c);
+    if (c.animate) c.animate([{ opacity: 0.15 }, { opacity: 1 }], { duration: 350 });
   });
 }
 
